@@ -198,7 +198,6 @@ pm uninstall --user 0 com.samsung.safetyinformation                # Safety info
 pm uninstall --user 0 com.facebook.katana                           # Facebook
 pm uninstall --user 0 com.samsung.app.highlightplayer              # Create Movie
 pm uninstall --user 0 com.sec.android.app.ringtoneBR              # Ringtone Backup
-pm uninstall --user 0 com.samsung.android.forest                   # Digital Wellbeing 
 pm uninstall --user 0 com.sec.android.app.vepreload                # video editor
 pm uninstall --user 0 com.samsung.internal.systemui.navbar.gestural_no_hint_narrow_back  # related to gesture navigation ig
 pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload   # Face avatat aka animoji sticker

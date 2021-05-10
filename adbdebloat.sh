@@ -198,7 +198,6 @@ adb shell pm uninstall --user 0 com.samsung.safetyinformation                # S
 adb shell pm uninstall --user 0 com.facebook.katana                           # Facebook
 adb shell pm uninstall --user 0 com.samsung.app.highlightplayer              # Create Movie
 adb shell pm uninstall --user 0 com.sec.android.app.ringtoneBR              # Ringtone Backup
-adb shell pm uninstall --user 0 com.samsung.android.forest                   # Digital Wellbeing 
 adb shell pm uninstall --user 0 com.sec.android.app.vepreload                # video editor
 adb shell pm uninstall --user 0 com.samsung.internal.systemui.navbar.gestural_no_hint_narrow_back  # related to gesture navigation ig
 adb shell pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload   # Face avatat aka animoji sticker
