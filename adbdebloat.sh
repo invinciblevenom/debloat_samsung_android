@@ -258,4 +258,3 @@ adb shell pm uninstall --user 0 com.samsung.android.alive.service     #Device Cu
 adb shell pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
 adb shell pm install-existing com.sec.android.systemupdate
 adb shell pm install-existing com.sec.android.soagent
-adb shell pm install-existing com.wssyncmldm

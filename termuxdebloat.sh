@@ -258,4 +258,3 @@ pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisatio
 pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
 pm install-existing com.sec.android.systemupdate
 pm install-existing com.sec.android.soagent
-pm install-existing com.wssyncmldm
