@@ -74,8 +74,6 @@ adb shell pm uninstall --user 0 com.google.android.apps.maps
 adb shell pm uninstall --user 0 com.google.android.youtube
 adb shell pm uninstall --user 0 com.google.android.apps.restore
 adb shell pm uninstall --user 0 com.google.android.configupdater
-adb shell pm uninstall --user 0 com.google.android.syncadapters.contacts
-adb shell pm uninstall --user 0 com.google.android.syncadapters.calendar
 adb shell pm uninstall --user 0 com.google.android.onetimeinitializer
 adb shell pm uninstall --user 0 com.sec.hearingadjust
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.waterfall

@@ -67,8 +67,6 @@ pm uninstall --user 0 com.google.android.apps.maps
 pm uninstall --user 0 com.google.android.youtube
 pm uninstall --user 0 com.google.android.apps.restore
 pm uninstall --user 0 com.google.android.configupdater
-pm uninstall --user 0 com.google.android.syncadapters.contacts
-pm uninstall --user 0 com.google.android.syncadapters.calendar
 pm uninstall --user 0 com.google.android.onetimeinitializer
 pm uninstall --user 0 com.sec.hearingadjust
 pm uninstall --user 0 com.android.internal.display.cutout.emulation.waterfall
