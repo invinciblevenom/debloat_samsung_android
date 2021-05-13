@@ -254,6 +254,8 @@ pm uninstall --user 0 com.samsung.android.game.gametools       # Game tools
 pm uninstall --user 0 com.samsung.android.setting.multisound     # Selerate App sound
 pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No idea but safe to remove
 pm uninstall --user 0 com.samsung.android.bixby.wakeup
+pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisation Service
+pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
 pm install-existing com.sec.android.systemupdate
 pm install-existing com.sec.android.soagent
 pm install-existing com.wssyncmldm

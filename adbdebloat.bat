@@ -261,6 +261,8 @@ adb shell pm uninstall --user 0 com.samsung.android.game.gametools       # Game 
 adb shell pm uninstall --user 0 com.samsung.android.setting.multisound     # Selerate App sound
 adb shell pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No idea but safe to remove
 adb shell pm uninstall --user 0 com.samsung.android.bixby.wakeup
+adb shell pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisation Service
+adb shell pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
 adb shell cmd package install-existing com.wssyncmldm
