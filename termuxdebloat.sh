@@ -41,7 +41,6 @@ pm uninstall --user 0 com.android.cts.ctsshim
 pm uninstall --user 0 com.android.cts.priv.ctsshim
 pm uninstall --user 0 com.android.dynsystem
 pm uninstall --user 0 android.autoinstalls.config.samsung
-pm uninstall --user 0 com.wssyncmldm
 pm uninstall --user 0 com.skms.android.agent
 pm uninstall --user 0 com.google.android.setupwizard
 pm uninstall --user 0 com.samsung.android.cmfa.framework
@@ -102,7 +101,6 @@ pm uninstall --user 0 com.samsung.klmsagent
 pm uninstall --user 0 com.samsung.android.smartswitchassistant      
 pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp     
 pm uninstall --user 0 com.samsung.android.app.galaxyfinder    # Samsung Finder app
-pm uninstall --user 0 com.sec.android.app.chromecustomizations   #something related to chrome.
 pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    # Corner screen cutout emuluation through developer options
 pm uninstall --user 0 com.sec.android.app.suwscriptplayer       # SuwScriptPlayer
 pm uninstall --user 0 com.android.internal.display.cutout.emulation.double    # Double cutout emulation via developer options
@@ -256,3 +254,6 @@ pm uninstall --user 0 com.samsung.android.game.gametools       # Game tools
 pm uninstall --user 0 com.samsung.android.setting.multisound     # Selerate App sound
 pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No idea but safe to remove
 pm uninstall --user 0 com.samsung.android.bixby.wakeup
+pm install-existing com.sec.android.systemupdate
+pm install-existing com.sec.android.soagent
+pm install-existing com.wssyncmldm

@@ -41,7 +41,6 @@ adb shell pm uninstall --user 0 com.android.cts.ctsshim
 adb shell pm uninstall --user 0 com.android.cts.priv.ctsshim
 adb shell pm uninstall --user 0 com.android.dynsystem
 adb shell pm uninstall --user 0 android.autoinstalls.config.samsung
-adb shell pm uninstall --user 0 com.wssyncmldm
 adb shell pm uninstall --user 0 com.skms.android.agent
 adb shell pm uninstall --user 0 com.google.android.setupwizard
 adb shell pm uninstall --user 0 com.samsung.android.cmfa.framework
@@ -102,7 +101,6 @@ adb shell pm uninstall --user 0 com.samsung.klmsagent
 adb shell pm uninstall --user 0 com.samsung.android.smartswitchassistant      
 adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp     
 adb shell pm uninstall --user 0 com.samsung.android.app.galaxyfinder    # Samsung Finder app
-adb shell pm uninstall --user 0 com.sec.android.app.chromecustomizations   #something related to chrome.
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    # Corner screen cutout emuluation through developer options
 adb shell pm uninstall --user 0 com.sec.android.app.suwscriptplayer       # SuwScriptPlayer
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.double    # Double cutout emulation via developer options
@@ -256,3 +254,6 @@ adb shell pm uninstall --user 0 com.samsung.android.game.gametools       # Game 
 adb shell pm uninstall --user 0 com.samsung.android.setting.multisound     # Selerate App sound
 adb shell pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No idea but safe to remove
 adb shell pm uninstall --user 0 com.samsung.android.bixby.wakeup
+adb shell pm install-existing com.sec.android.systemupdate
+adb shell pm install-existing com.sec.android.soagent
+adb shell pm install-existing com.wssyncmldm
