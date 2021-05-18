@@ -252,5 +252,6 @@ pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No idea but 
 pm uninstall --user 0 com.samsung.android.bixby.wakeup
 pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisation Service
 pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
+pm uninstall --user 0 com.osp.app.signin               #Samsung Account
 pm install-existing com.sec.android.systemupdate
 pm install-existing com.sec.android.soagent
