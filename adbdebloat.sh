@@ -30,7 +30,6 @@ adb shell pm uninstall --user 0 com.sec.android.app.samsungapps
 adb shell pm uninstall --user 0 com.sec.android.app.chromecustomizations
 adb shell pm uninstall --user 0 com.sec.android.preloadinstaller
 adb shell pm uninstall --user 0 com.sec.android.app.personalization
-adb shell pm uninstall --user 0 com.sec.android.sdhms
 adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
 adb shell pm uninstall --user 0 com.sec.android.emergencylauncher
 adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
