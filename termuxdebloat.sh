@@ -249,7 +249,6 @@ pm uninstall --user 0 com.android.theme.icon_pack.circular.android      # Circul
 pm uninstall --user 0 com.samsung.android.game.gamehome      # Game home
 pm uninstall --user 0 com.samsung.android.tadownloader           # TA Downloader
 pm uninstall --user 0 com.samsung.android.game.gametools       # Game tools
-pm uninstall --user 0 com.samsung.android.setting.multisound     # Selerate App sound
 pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No idea but safe to remove
 pm uninstall --user 0 com.samsung.android.bixby.wakeup
 pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisation Service
