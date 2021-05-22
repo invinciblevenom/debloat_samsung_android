@@ -108,7 +108,7 @@ adb shell pm uninstall --user 0 com.samsung.android.app.galaxyfinder    # Samsun
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    # Corner screen cutout emuluation through developer options
 adb shell pm uninstall --user 0 com.sec.android.app.suwscriptplayer       # SuwScriptPlayer
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.double    # Double cutout emulation via developer options
-adb shell pm uninstall --user 0 com.microsoft.apadb shell pmanager                  # Your phone Companion
+adb shell pm uninstall --user 0 com.microsoft.appmanager                  # Your phone Companion
 adb shell pm uninstall --user 0 com.samsung.android.aremoji    # AR emoji feature of camera
 adb shell pm uninstall --user 0 com.samsung.android.app.social    # Samsung Social
 adb shell pm uninstall --user 0 com.android.theme.icon.square      # Square icon theme
@@ -259,8 +259,16 @@ adb shell pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No
 adb shell pm uninstall --user 0 com.samsung.android.bixby.wakeup
 adb shell pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisation Service
 adb shell pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
-adb shell pm uninstall --user 0 com.osp.app.signin    #Samsung Account
-adb shell pm uninstall --user 0 com.samsung.android.dynamiclock
+adb shell pm uninstall --user 0 com.osp.app.signin       #Samsung Account
+adb shell pm uninstall --user 0 com.samsung.android.dynamiclock     #Wallpaper Services
+adb shell pm uninstall --user 0 com.aura.oobe.samsung   #Samsung Discover
+adb shell pm uninstall --user 0 com.android.stk
+adb shell pm uninstall --user 0 com.android.stk2
+adb shell pm uninstall --user 0 com.samsung.android.themestore
+adb shell pm uninstall --user 0 com.samsung.android.themecenter
+adb shell pm uninstall --user 0 com.mygalaxy
+adb shell pm uninstall --user 0 com.netflix.mediaclient
+adb shell pm uninstall --user 0 com.opera.max.oem
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
