@@ -1,3 +1,3 @@
 # debloat_samsung_android
 
-Script by Yillie and fixes by invinciblevenom
+Script by Yillie and invinciblevenom.
