@@ -253,5 +253,14 @@ pm uninstall --user 0 com.samsung.android.bixby.wakeup
 pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisation Service
 pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
 pm uninstall --user 0 com.osp.app.signin               #Samsung Account
+pm uninstall --user 0 com.samsung.android.dynamiclock     #Wallpaper Services
+pm uninstall --user 0 com.aura.oobe.samsung   #Samsung Discover
+pm uninstall --user 0 com.android.stk
+pm uninstall --user 0 com.android.stk2
+pm uninstall --user 0 com.samsung.android.themestore
+pm uninstall --user 0 com.samsung.android.themecenter
+pm uninstall --user 0 com.mygalaxy
+pm uninstall --user 0 com.netflix.mediaclient
+pm uninstall --user 0 com.opera.max.oem
 pm install-existing com.sec.android.systemupdate
 pm install-existing com.sec.android.soagent
