@@ -262,5 +262,9 @@ pm uninstall --user 0 com.samsung.android.themecenter
 pm uninstall --user 0 com.mygalaxy
 pm uninstall --user 0 com.netflix.mediaclient
 pm uninstall --user 0 com.opera.max.oem
+pm uninstall --user 0 com.facebook.appmanager
+pm uninstall --user 0 com.sec.android.sdhms
+pm uninstall --user 0 com.sec.android.app.soundalive
 pm install-existing com.sec.android.systemupdate
 pm install-existing com.sec.android.soagent
+
