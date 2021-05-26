@@ -264,3 +264,6 @@ adb shell pm uninstall --user 0 com.netflix.mediaclient
 adb shell pm uninstall --user 0 com.opera.max.oem
 adb shell pm install-existing com.sec.android.systemupdate
 adb shell pm install-existing com.sec.android.soagent
+adb shell pm uninstall --user 0 com.facebook.appmanager
+adb shell pm uninstall --user 0 com.sec.android.sdhms  #Samsung Device Health Manager Service
+adb shell pm uninstall --user 0 com.sec.android.app.soundalive   #Samsung Alive Sound
