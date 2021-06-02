@@ -1,6 +1,16 @@
 # debloat_samsung_android
 
 ## Script by Yillie and invinciblevenom
+This is extreme debloat script. It removes almost all apps which can be safely removed.
+To restore any app just run the following command:
+~~~
+adb shell cmd package install-existing <name of package>
+~~~
+
+For example- 
+~~~
+adb shell cmd package install-existing com.sec.android.app.samsungapps
+~~~
 
 ### Settings at Inital Setup
 <img src="screenshots/Setup.jpg" width="200"/>
