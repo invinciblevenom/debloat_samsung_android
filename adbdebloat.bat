@@ -240,7 +240,6 @@ adb shell pm uninstall --user 0 com.samsung.android.samsungpassautofill        #
 adb shell pm uninstall --user 0 com.android.theme.color.purple                     # Purple system accent color (Doesn't work on OneUI)
 adb shell pm uninstall --user 0 com.samsung.sait.sohservice                       # Dont know what it does but can be removed 
 adb shell pm uninstall --user 0 com.samsung.android.sdk.handwriting              # Handwriting service 
-adb shell pm uninstall --user 0 com.facebook.apadb shell pmanager                         # Facebook app installer
 adb shell pm uninstall --user 0 com.samsung.aasaservice                          # AASA service (can be removed safety)
 adb shell pm uninstall --user 0 com.samsung.systemui.hidenotch                   # Hide notch overlay 
 adb shell pm uninstall --user 0 com.android.traceur                                  # Dont know what it does but can be removed
