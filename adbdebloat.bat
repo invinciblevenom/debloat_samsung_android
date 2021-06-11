@@ -98,7 +98,6 @@ adb shell pm uninstall --user 0 com.samsung.gpuwatchapp
 adb shell pm uninstall --user 0 com.samsung.android.app.routines
 adb shell pm uninstall --user 0 com.samsung.android.authfw
 adb shell pm uninstall --user 0 com.sec.android.app.billing
-adb shell pm uninstall --user 0 com.samsung.android.game.gos
 adb shell pm uninstall --user 0 com.sec.enterprise.knox.attestation            
 adb shell pm uninstall --user 0 com.amazon.avod.thirdpartyclient              
 adb shell pm uninstall --user 0 com.samsung.klmsagent                    
@@ -272,7 +271,6 @@ adb shell pm uninstall --user 0 com.opera.max.oem
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
 adb shell pm uninstall --user 0 com.facebook.appmanager
-adb shell pm uninstall --user 0 com.sec.android.sdhms  #Samsung Device Health Manager Service
 adb shell pm uninstall --user 0 com.sec.android.app.soundalive   #Samsung Alive Sound
 echo Completed Action
 echo press any key to close terminal
