@@ -219,7 +219,6 @@ adb shell pm uninstall --user 0 com.samsung.android.app.spage            # bixby
 adb shell pm uninstall --user 0 com.sec.android.mimage.avatarstickers     # AR Emoji Stickers
 adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.launcher # Filled icon kack for launcher 
 adb shell pm uninstall --user 0 com.samsung.android.knox.analytics.uploader # Knox analytics Uploader
-adb shell pm uninstall --user 0 com.samsung.android.sm.policy              # Device usage / optimization data or related to smart manager in some way
 adb shell pm uninstall --user 0 com.google.android.projection.gearhead        # Android Auto
 adb shell pm uninstall --user 0 com.samsung.android.bbc.bbcagent            # Bixby stuff
 adb shell pm uninstall --user 0 com.samsung.android.visionintelligence        # Bixby Vision 
