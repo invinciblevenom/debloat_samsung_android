@@ -30,9 +30,6 @@ pm uninstall --user 0 com.sec.android.app.samsungapps
 pm uninstall --user 0 com.sec.android.app.chromecustomizations
 pm uninstall --user 0 com.sec.android.preloadinstaller
 pm uninstall --user 0 com.sec.android.app.personalization
-pm uninstall --user 0 com.sec.android.emergencymode.service
-pm uninstall --user 0 com.sec.android.emergencylauncher
-pm uninstall --user 0 com.sec.android.provider.emergencymode
 pm uninstall --user 0 com.sec.location.nsflp2
 pm uninstall --user 0 com.sec.mhs.smarttethering
 pm uninstall --user 0 com.sec.bcservice
@@ -91,7 +88,6 @@ pm uninstall --user 0 com.samsung.gpuwatchapp
 pm uninstall --user 0 com.samsung.android.app.routines
 pm uninstall --user 0 com.samsung.android.authfw
 pm uninstall --user 0 com.sec.android.app.billing
-pm uninstall --user 0 com.samsung.android.game.gos
 pm uninstall --user 0 com.sec.enterprise.knox.attestation            
 pm uninstall --user 0 com.amazon.avod.thirdpartyclient              
 pm uninstall --user 0 com.samsung.klmsagent                    
@@ -214,7 +210,6 @@ pm uninstall --user 0 com.samsung.android.app.spage            # bixby stuff
 pm uninstall --user 0 com.sec.android.mimage.avatarstickers     # AR Emoji Stickers
 pm uninstall --user 0 com.android.theme.icon_pack.filled.launcher # Filled icon kack for launcher 
 pm uninstall --user 0 com.samsung.android.knox.analytics.uploader # Knox analytics Uploader
-pm uninstall --user 0 com.samsung.android.sm.policy              # Device usage / optimization data or related to smart manager in some way
 pm uninstall --user 0 com.google.android.projection.gearhead        # Android Auto
 pm uninstall --user 0 com.samsung.android.bbc.bbcagent            # Bixby stuff
 pm uninstall --user 0 com.samsung.android.visionintelligence        # Bixby Vision 
@@ -234,7 +229,6 @@ pm uninstall --user 0 com.samsung.android.samsungpassautofill        # Samsung p
 pm uninstall --user 0 com.android.theme.color.purple                     # Purple system accent color (Doesn't work on OneUI)
 pm uninstall --user 0 com.samsung.sait.sohservice                       # Dont know what it does but can be removed 
 pm uninstall --user 0 com.samsung.android.sdk.handwriting              # Handwriting service 
-pm uninstall --user 0 com.facebook.appmanager                         # Facebook app installer
 pm uninstall --user 0 com.samsung.aasaservice                          # AASA service (can be removed safety)
 pm uninstall --user 0 com.samsung.systemui.hidenotch                   # Hide notch overlay 
 pm uninstall --user 0 com.android.traceur                                  # Dont know what it does but can be removed
@@ -252,7 +246,7 @@ pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No idea but 
 pm uninstall --user 0 com.samsung.android.bixby.wakeup
 pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisation Service
 pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
-pm uninstall --user 0 com.osp.app.signin               #Samsung Account
+pm uninstall --user 0 com.osp.app.signin       #Samsung Account
 pm uninstall --user 0 com.samsung.android.dynamiclock     #Wallpaper Services
 pm uninstall --user 0 com.aura.oobe.samsung   #Samsung Discover
 pm uninstall --user 0 com.android.stk
@@ -263,8 +257,7 @@ pm uninstall --user 0 com.mygalaxy
 pm uninstall --user 0 com.netflix.mediaclient
 pm uninstall --user 0 com.opera.max.oem
 pm uninstall --user 0 com.facebook.appmanager
-pm uninstall --user 0 com.sec.android.sdhms
-pm uninstall --user 0 com.sec.android.app.soundalive
-pm install-existing com.sec.android.systemupdate
-pm install-existing com.sec.android.soagent
-
+pm uninstall --user 0 com.sec.android.app.soundalive   #Samsung Alive Sound
+pm uninstall --user 0 com.samsung.discover  #Discover App
+cmd package install-existing com.sec.android.systemupdate
+cmd package install-existing com.sec.android.soagent
