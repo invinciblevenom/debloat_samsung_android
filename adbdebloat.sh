@@ -30,9 +30,6 @@ adb shell pm uninstall --user 0 com.sec.android.app.samsungapps
 adb shell pm uninstall --user 0 com.sec.android.app.chromecustomizations
 adb shell pm uninstall --user 0 com.sec.android.preloadinstaller
 adb shell pm uninstall --user 0 com.sec.android.app.personalization
-adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
-adb shell pm uninstall --user 0 com.sec.android.emergencylauncher
-adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
 adb shell pm uninstall --user 0 com.sec.location.nsflp2
 adb shell pm uninstall --user 0 com.sec.mhs.smarttethering
 adb shell pm uninstall --user 0 com.sec.bcservice
@@ -91,7 +88,6 @@ adb shell pm uninstall --user 0 com.samsung.gpuwatchapp
 adb shell pm uninstall --user 0 com.samsung.android.app.routines
 adb shell pm uninstall --user 0 com.samsung.android.authfw
 adb shell pm uninstall --user 0 com.sec.android.app.billing
-adb shell pm uninstall --user 0 com.samsung.android.game.gos
 adb shell pm uninstall --user 0 com.sec.enterprise.knox.attestation            
 adb shell pm uninstall --user 0 com.amazon.avod.thirdpartyclient              
 adb shell pm uninstall --user 0 com.samsung.klmsagent                    
@@ -101,7 +97,7 @@ adb shell pm uninstall --user 0 com.samsung.android.app.galaxyfinder    # Samsun
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    # Corner screen cutout emuluation through developer options
 adb shell pm uninstall --user 0 com.sec.android.app.suwscriptplayer       # SuwScriptPlayer
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.double    # Double cutout emulation via developer options
-adb shell pm uninstall --user 0 com.microsoft.appmanager                 # Your phone Companion
+adb shell pm uninstall --user 0 com.microsoft.appmanager                  # Your phone Companion
 adb shell pm uninstall --user 0 com.samsung.android.aremoji    # AR emoji feature of camera
 adb shell pm uninstall --user 0 com.samsung.android.app.social    # Samsung Social
 adb shell pm uninstall --user 0 com.android.theme.icon.square      # Square icon theme
@@ -214,7 +210,6 @@ adb shell pm uninstall --user 0 com.samsung.android.app.spage            # bixby
 adb shell pm uninstall --user 0 com.sec.android.mimage.avatarstickers     # AR Emoji Stickers
 adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.launcher # Filled icon kack for launcher 
 adb shell pm uninstall --user 0 com.samsung.android.knox.analytics.uploader # Knox analytics Uploader
-adb shell pm uninstall --user 0 com.samsung.android.sm.policy              # Device usage / optimization data or related to smart manager in some way
 adb shell pm uninstall --user 0 com.google.android.projection.gearhead        # Android Auto
 adb shell pm uninstall --user 0 com.samsung.android.bbc.bbcagent            # Bixby stuff
 adb shell pm uninstall --user 0 com.samsung.android.visionintelligence        # Bixby Vision 
@@ -234,7 +229,6 @@ adb shell pm uninstall --user 0 com.samsung.android.samsungpassautofill        #
 adb shell pm uninstall --user 0 com.android.theme.color.purple                     # Purple system accent color (Doesn't work on OneUI)
 adb shell pm uninstall --user 0 com.samsung.sait.sohservice                       # Dont know what it does but can be removed 
 adb shell pm uninstall --user 0 com.samsung.android.sdk.handwriting              # Handwriting service 
-adb shell pm uninstall --user 0 com.facebook.apadb shell pmanager                         # Facebook app installer
 adb shell pm uninstall --user 0 com.samsung.aasaservice                          # AASA service (can be removed safety)
 adb shell pm uninstall --user 0 com.samsung.systemui.hidenotch                   # Hide notch overlay 
 adb shell pm uninstall --user 0 com.android.traceur                                  # Dont know what it does but can be removed
@@ -252,7 +246,7 @@ adb shell pm uninstall --user 0 com.aura.oobe.samsung.gl                    # No
 adb shell pm uninstall --user 0 com.samsung.android.bixby.wakeup
 adb shell pm uninstall --user 0 com.samsung.android.alive.service     #Device Customisation Service
 adb shell pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Widget
-adb shell pm uninstall --user 0 com.osp.app.signin               #Samsung Account
+adb shell pm uninstall --user 0 com.osp.app.signin       #Samsung Account
 adb shell pm uninstall --user 0 com.samsung.android.dynamiclock     #Wallpaper Services
 adb shell pm uninstall --user 0 com.aura.oobe.samsung   #Samsung Discover
 adb shell pm uninstall --user 0 com.android.stk
@@ -262,8 +256,8 @@ adb shell pm uninstall --user 0 com.samsung.android.themecenter
 adb shell pm uninstall --user 0 com.mygalaxy
 adb shell pm uninstall --user 0 com.netflix.mediaclient
 adb shell pm uninstall --user 0 com.opera.max.oem
-adb shell pm install-existing com.sec.android.systemupdate
-adb shell pm install-existing com.sec.android.soagent
 adb shell pm uninstall --user 0 com.facebook.appmanager
-adb shell pm uninstall --user 0 com.sec.android.sdhms  #Samsung Device Health Manager Service
 adb shell pm uninstall --user 0 com.sec.android.app.soundalive   #Samsung Alive Sound
+adb shell pm uninstall --user 0 com.samsung.discover  #Discover App
+adb shell cmd package install-existing com.sec.android.systemupdate
+adb shell cmd package install-existing com.sec.android.soagent
