@@ -263,10 +263,11 @@ adb shell pm uninstall --user 0 com.samsung.android.themecenter
 adb shell pm uninstall --user 0 com.mygalaxy
 adb shell pm uninstall --user 0 com.netflix.mediaclient
 adb shell pm uninstall --user 0 com.opera.max.oem
-adb shell cmd package install-existing com.sec.android.systemupdate
-adb shell cmd package install-existing com.sec.android.soagent
 adb shell pm uninstall --user 0 com.facebook.appmanager
 adb shell pm uninstall --user 0 com.sec.android.app.soundalive   #Samsung Alive Sound
+adb shell pm uninstall --user 0 com.samsung.discover  #Discover App
+adb shell cmd package install-existing com.sec.android.systemupdate
+adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
 echo press any key to close terminal
 pause>null
