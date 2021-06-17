@@ -12,8 +12,5 @@ For example-
 adb shell cmd package install-existing com.sec.android.app.samsungapps
 ~~~
 
-### Settings at Inital Setup
-<img src="screenshots/Setup.jpg" width="200"/>
-
-### Visible Installed Apps
+### Visible Installed Apps (OneUI Core 3.1 - INS Firmware)
 <img src="screenshots/1.jpg" width="200"/>  <img src="screenshots/2.jpg" width="200"/> <img src="screenshots/3.jpg" width="200"/>
