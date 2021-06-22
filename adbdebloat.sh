@@ -259,5 +259,26 @@ adb shell pm uninstall --user 0 com.opera.max.oem
 adb shell pm uninstall --user 0 com.facebook.appmanager
 adb shell pm uninstall --user 0 com.sec.android.app.soundalive   #Samsung Alive Sound
 adb shell pm uninstall --user 0 com.samsung.discover  #Discover App
+adb shell pm uninstall --user 0 com.samsung.android.game.gos
+adb shell pm uninstall --user 0 com.samsung.android.app.watchmanagerstub
+adb shell pm uninstall --user 0 com.samsung.storyservice
+adb shell pm uninstall --user 0 com.sec.android.daemonapp
+adb shell pm uninstall --user 0 com.samsung.android.accessibility.talkback
+adb shell pm uninstall --user 0 com.samsung.android.stickercenter
+adb shell pm uninstall --user 0 com.samsung.android.beaconmanager
+adb shell pm uninstall --user 0 com.samsung.android.smartfitting
+adb shell pm uninstall --user 0 com.samsung.android.smartmirroring
+adb shell pm uninstall --user 0 com.samsung.android.smartface
+adb shell pm uninstall --user 0 com.sec.android.easyMover.Agent
+adb shell pm uninstall --user 0 com.samsung.android.visualars
+adb shell pm uninstall --user 0 com.samsung.android.app.sharelive
+adb shell pm uninstall --user 0 com.samsung.android.setupindiaservicestnc
+adb shell pm uninstall --user 0 com.netflix.partner.activation
+adb shell pm uninstall --user 0 com.sec.android.diagmonagent
+adb shell pm uninstall --user 0 com.samsung.android.rubin.app
+adb shell pm uninstall --user 0 com.samsung.android.app.omcagent
+adb shell pm uninstall --user 0 android.autoinstalls.config.samsung
+adb shell pm uninstall --user 0 com.sec.android.preloadinstaller
+adb shell pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
