@@ -286,6 +286,9 @@ adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.themepicker  
 adb shell pm uninstall --user 0 com.android.theme.icon.roundedrect                #  Rounded icons ?  
 adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.settings     # Rounded icon pack for settings
 adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.android      # Circular icon pack 
+adb shell pm uninstall --user 0 com.android.emergency
+adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
+adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
