@@ -230,8 +230,8 @@ adb shell pm uninstall --user 0 com.samsung.android.mfi               #Galaxy Wi
 adb shell pm uninstall --user 0 com.osp.app.signin       #Samsung Account
 adb shell pm uninstall --user 0 com.samsung.android.dynamiclock     #Wallpaper Services
 adb shell pm uninstall --user 0 com.aura.oobe.samsung   #Samsung Discover
-adb shell pm uninstall --user 0 com.android.stk
-adb shell pm uninstall --user 0 com.android.stk2
+adb shell pm uninstall --user 0 com.android.stk  #SIM Toolkit
+adb shell pm uninstall --user 0 com.android.stk2 #SIM Toolkit
 adb shell pm uninstall --user 0 com.samsung.storyservice
 adb shell pm uninstall --user 0 com.mygalaxy
 adb shell pm uninstall --user 0 com.netflix.mediaclient
@@ -289,8 +289,8 @@ adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.android    
 adb shell pm uninstall --user 0 com.android.emergency
 adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
 adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
-adb shell pm uninstall --user 0 com.samsung.android.app.soundpicker
-adb shell pm uninstall --user 0 com.samsung.android.uds
+adb shell pm uninstall --user 0 com.samsung.android.app.soundpicker #Sound Picker
+adb shell pm uninstall --user 0 com.samsung.android.uds  #Ultra Data Saving mode
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
