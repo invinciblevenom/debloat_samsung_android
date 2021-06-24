@@ -289,6 +289,8 @@ adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.android    
 adb shell pm uninstall --user 0 com.android.emergency
 adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
 adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
+adb shell pm uninstall --user 0 com.samsung.android.app.soundpicker
+adb shell pm uninstall --user 0 com.samsung.android.uds
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
