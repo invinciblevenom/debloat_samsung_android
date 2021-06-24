@@ -268,6 +268,24 @@ adb shell pm uninstall --user 0 com.android.theme.color.ocean
 adb shell pm uninstall --user 0 com.android.theme.color.space
 adb shell pm uninstall --user 0 com.android.theme.color.orchid
 adb shell pm uninstall --user 0 com.android.theme.color.purple
+adb shell pm uninstall --user 0 com.android.theme.icon.square      # Square icon theme
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.systemui   # Rounded icon theme for systemui
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.android       # Rounded icon pack theme
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.themepicker     # Curcular icon pack theme
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.launcher         # Rounded icon pack for launcher
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.settings         # Filled icon pack theme
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.settings      # circular icon pack for settings??
+adb shell pm uninstall --user 0 com.android.theme.icon.teardrop                   # Teardrop icon pack theme
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.systemui      # Filled icon pack theme for system ui
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.android       # Filled icon pack theme
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.systemui  # Circular icon pack theme for systemui
+adb shell pm uninstall --user 0 com.android.theme.icon.squircle            # Squirce android theme
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.launcher # Filled icon kack for launcher
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.launcher # Circular Icon Pack for Launcher
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.themepicker  # Another Filled icon theme 
+adb shell pm uninstall --user 0 com.android.theme.icon.roundedrect                #  Rounded icons ?  
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.settings     # Rounded icon pack for settings
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.android      # Circular icon pack 
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
