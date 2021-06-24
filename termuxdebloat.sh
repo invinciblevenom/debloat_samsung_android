@@ -252,5 +252,37 @@ pm uninstall --user 0 com.samsung.android.app.omcagent
 pm uninstall --user 0 android.autoinstalls.config.samsung
 pm uninstall --user 0 com.sec.android.preloadinstaller
 pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe
+pm uninstall --user 0 com.samsung.android.themestore
+pm uninstall --user 0 com.samsung.android.themecenter
+pm uninstall --user 0 com.android.theme.color.cinnamon
+pm uninstall --user 0 com.android.theme.color.black
+pm uninstall --user 0 com.android.theme.color.green
+pm uninstall --user 0 com.android.theme.color.ocean
+pm uninstall --user 0 com.android.theme.color.space
+pm uninstall --user 0 com.android.theme.color.orchid
+pm uninstall --user 0 com.android.theme.color.purple
+pm uninstall --user 0 com.android.theme.icon.square      # Square icon theme
+pm uninstall --user 0 com.android.theme.icon_pack.rounded.systemui   # Rounded icon theme for systemui
+pm uninstall --user 0 com.android.theme.icon_pack.rounded.android       # Rounded icon pack theme
+pm uninstall --user 0 com.android.theme.icon_pack.circular.themepicker     # Curcular icon pack theme
+pm uninstall --user 0 com.android.theme.icon_pack.rounded.launcher         # Rounded icon pack for launcher
+pm uninstall --user 0 com.android.theme.icon_pack.filled.settings         # Filled icon pack theme
+pm uninstall --user 0 com.android.theme.icon_pack.circular.settings      # circular icon pack for settings??
+pm uninstall --user 0 com.android.theme.icon.teardrop                   # Teardrop icon pack theme
+pm uninstall --user 0 com.android.theme.icon_pack.filled.systemui      # Filled icon pack theme for system ui
+pm uninstall --user 0 com.android.theme.icon_pack.filled.android       # Filled icon pack theme
+pm uninstall --user 0 com.android.theme.icon_pack.circular.systemui  # Circular icon pack theme for systemui
+pm uninstall --user 0 com.android.theme.icon.squircle            # Squirce android theme
+pm uninstall --user 0 com.android.theme.icon_pack.filled.launcher # Filled icon kack for launcher
+pm uninstall --user 0 com.android.theme.icon_pack.circular.launcher # Circular Icon Pack for Launcher
+pm uninstall --user 0 com.android.theme.icon_pack.filled.themepicker  # Another Filled icon theme 
+pm uninstall --user 0 com.android.theme.icon.roundedrect                #  Rounded icons ?  
+pm uninstall --user 0 com.android.theme.icon_pack.rounded.settings     # Rounded icon pack for settings
+pm uninstall --user 0 com.android.theme.icon_pack.circular.android      # Circular icon pack 
+pm uninstall --user 0 com.android.emergency
+pm uninstall --user 0 com.sec.android.emergencymode.service
+pm uninstall --user 0 com.sec.android.provider.emergencymode
+pm uninstall --user 0 com.samsung.android.app.soundpicker #Sound Picker
+pm uninstall --user 0 com.samsung.android.uds  #Ultra Data Saving mode
 cmd package install-existing com.sec.android.systemupdate
 cmd package install-existing com.sec.android.soagent
