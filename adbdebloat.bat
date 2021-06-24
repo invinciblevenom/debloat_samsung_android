@@ -261,6 +261,13 @@ adb shell pm uninstall --user 0 com.sec.android.preloadinstaller
 adb shell pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe
 adb shell pm uninstall --user 0 com.samsung.android.themestore
 adb shell pm uninstall --user 0 com.samsung.android.themecenter
+adb shell pm uninstall --user 0 com.android.theme.color.cinnamon
+adb shell pm uninstall --user 0 com.android.theme.color.black
+adb shell pm uninstall --user 0 com.android.theme.color.green
+adb shell pm uninstall --user 0 com.android.theme.color.ocean
+adb shell pm uninstall --user 0 com.android.theme.color.space
+adb shell pm uninstall --user 0 com.android.theme.color.orchid
+adb shell pm uninstall --user 0 com.android.theme.color.purple
 adb shell cmd package install-existing com.sec.android.systemupdate
 adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
