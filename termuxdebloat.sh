@@ -284,5 +284,8 @@ pm uninstall --user 0 com.sec.android.emergencymode.service
 pm uninstall --user 0 com.sec.android.provider.emergencymode
 pm uninstall --user 0 com.samsung.android.app.soundpicker #Sound Picker
 pm uninstall --user 0 com.samsung.android.uds  #Ultra Data Saving mode
+pm uninstall --user 0 com.samsung.android.app.clipboardedge
+pm uninstall --user 0 com.samsung.android.service.peoplestripe
+pm uninstall --user 0 com.samsung.android.app.taskedge
 cmd package install-existing com.sec.android.systemupdate
 cmd package install-existing com.sec.android.soagent
