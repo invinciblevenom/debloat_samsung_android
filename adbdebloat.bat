@@ -16,7 +16,6 @@ adb shell pm uninstall --user 0 com.samsung.android.beaconmanager
 adb shell pm uninstall --user 0 com.samsung.android.brightnessbackupservice
 adb shell pm uninstall --user 0 com.samsung.android.app.omcagent
 adb shell pm uninstall --user 0 com.samsung.android.shortcutbackupservice
-adb shell pm uninstall --user 0 com.samsung.crane
 adb shell pm uninstall --user 0 com.samsung.android.sdm.config
 adb shell pm uninstall --user 0 com.samsung.android.easysetup
 adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
@@ -97,8 +96,7 @@ adb shell pm uninstall --user 0 com.sec.android.app.billing
 adb shell pm uninstall --user 0 com.sec.enterprise.knox.attestation            
 adb shell pm uninstall --user 0 com.amazon.avod.thirdpartyclient              
 adb shell pm uninstall --user 0 com.samsung.klmsagent                    
-adb shell pm uninstall --user 0 com.samsung.android.smartswitchassistant      
-adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp     
+adb shell pm uninstall --user 0 com.samsung.android.smartswitchassistant     
 adb shell pm uninstall --user 0 com.samsung.android.app.galaxyfinder    # Samsung Finder app
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    # Corner screen cutout emuluation through developer options
 adb shell pm uninstall --user 0 com.sec.android.app.suwscriptplayer       # SuwScriptPlayer
@@ -121,7 +119,6 @@ adb shell pm uninstall --user 0 com.sec.android.app.wlantest                    
 adb shell pm uninstall --user 0 com.sec.android.smartfpsadjuster                     # Smart fps adjuster
 adb shell pm uninstall --user 0 com.samsung.android.app.settings.bixby              # Main Bixby app
 adb shell pm uninstall --user 0 com.google.ar.core                                     # AR Core
-adb shell pm uninstall --user 0 com.sec.sve                                            # Sec video engine service
 adb shell pm uninstall --user 0 com.samsung.android.knox.attestation                # Knox bloat    
 adb shell pm uninstall --user 0 com.samsung.systemui.bixby2                         # SystemUI bixby2
 adb shell pm uninstall --user 0 com.microsoft.skydrive                                   # Onedrive app
@@ -130,7 +127,6 @@ adb shell pm uninstall --user 0 com.sec.android.provider.badge                  
 adb shell pm uninstall --user 0 com.samsung.android.securitylogagent                  # Security Log agent
 adb shell pm uninstall --user 0 com.samsung.android.knox.containeragent             # Work Profile
 adb shell pm uninstall --user 0 com.samsung.SMT                                      # Text to speech engine of Samsung
-adb shell pm uninstall --user 0 com.samsung.cmh                                      # CMHProvider needed by gallery for face recognition
 adb shell pm uninstall --user 0 com.samsung.mlp                                       # Related to cmh agent and vision intelligence
 adb shell pm uninstall --user 0 com.samsung.android.drivelink.stub                     # Car Mode stub
 adb shell pm uninstall --user 0 com.samsung.knox.keychain                             # Knox Keychain
