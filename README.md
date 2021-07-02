@@ -1,9 +1,9 @@
 # debloat_samsung_android: Debloat Script by invinciblevenom and Yillie
 
 ## How to:
-Just download the latest releaseand run the desired script.
+Just download the latest release and run the desired script.
 
-Warning: This is extreme debloat script. It removes almost all apps which can be safely removed.
+Warning: This is extreme debloat script. It removes almost all apps which can be safely removed. Some features may break after using this.
 To restore any app just run the following command:
 ~~~
 adb shell cmd package install-existing <name of package>
