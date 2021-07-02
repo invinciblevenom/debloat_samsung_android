@@ -9,7 +9,6 @@ pm uninstall --user 0 com.samsung.android.beaconmanager
 pm uninstall --user 0 com.samsung.android.brightnessbackupservice
 pm uninstall --user 0 com.samsung.android.app.omcagent
 pm uninstall --user 0 com.samsung.android.shortcutbackupservice
-pm uninstall --user 0 com.samsung.crane
 pm uninstall --user 0 com.samsung.android.sdm.config
 pm uninstall --user 0 com.samsung.android.easysetup
 pm uninstall --user 0 com.samsung.android.mdx.kit
@@ -90,8 +89,7 @@ pm uninstall --user 0 com.sec.android.app.billing
 pm uninstall --user 0 com.sec.enterprise.knox.attestation            
 pm uninstall --user 0 com.amazon.avod.thirdpartyclient              
 pm uninstall --user 0 com.samsung.klmsagent                    
-pm uninstall --user 0 com.samsung.android.smartswitchassistant      
-pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp     
+pm uninstall --user 0 com.samsung.android.smartswitchassistant  
 pm uninstall --user 0 com.samsung.android.app.galaxyfinder    # Samsung Finder app
 pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    # Corner screen cutout emuluation through developer options
 pm uninstall --user 0 com.sec.android.app.suwscriptplayer       # SuwScriptPlayer
@@ -114,7 +112,6 @@ pm uninstall --user 0 com.sec.android.app.wlantest                          # Wl
 pm uninstall --user 0 com.sec.android.smartfpsadjuster                     # Smart fps adjuster
 pm uninstall --user 0 com.samsung.android.app.settings.bixby              # Main Bixby app
 pm uninstall --user 0 com.google.ar.core                                     # AR Core
-pm uninstall --user 0 com.sec.sve                                            # Sec video engine service
 pm uninstall --user 0 com.samsung.android.knox.attestation                # Knox bloat    
 pm uninstall --user 0 com.samsung.systemui.bixby2                         # SystemUI bixby2
 pm uninstall --user 0 com.microsoft.skydrive                                   # Onedrive app
@@ -123,7 +120,6 @@ pm uninstall --user 0 com.sec.android.provider.badge                          # 
 pm uninstall --user 0 com.samsung.android.securitylogagent                  # Security Log agent
 pm uninstall --user 0 com.samsung.android.knox.containeragent             # Work Profile
 pm uninstall --user 0 com.samsung.SMT                                      # Text to speech engine of Samsung
-pm uninstall --user 0 com.samsung.cmh                                      # CMHProvider needed by gallery for face recognition
 pm uninstall --user 0 com.samsung.mlp                                       # Related to cmh agent and vision intelligence
 pm uninstall --user 0 com.samsung.android.drivelink.stub                     # Car Mode stub
 pm uninstall --user 0 com.samsung.knox.keychain                             # Knox Keychain
