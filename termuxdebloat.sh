@@ -283,5 +283,6 @@ pm uninstall --user 0 com.samsung.android.uds  #Ultra Data Saving mode
 pm uninstall --user 0 com.samsung.android.app.clipboardedge
 pm uninstall --user 0 com.samsung.android.service.peoplestripe
 pm uninstall --user 0 com.samsung.android.app.taskedge
+pm uninstall --user 0 com.samsung.android.ipsgeofence    #Samsung Visit-in
 cmd package install-existing com.sec.android.systemupdate
 cmd package install-existing com.sec.android.soagent
