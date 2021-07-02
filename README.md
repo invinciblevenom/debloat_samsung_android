@@ -2,7 +2,7 @@
 
 ## Script by Yillie and invinciblevenom
 
-#How to:
+# How to:
 Just download the latest releaseand run the desired script.
 
 Warning: This is extreme debloat script. It removes almost all apps which can be safely removed.
