@@ -290,7 +290,8 @@ adb shell pm uninstall --user 0 com.samsung.android.uds  #Ultra Data Saving mode
 adb shell pm uninstall --user 0 com.samsung.android.app.clipboardedge
 adb shell pm uninstall --user 0 com.samsung.android.service.peoplestripe
 adb shell pm uninstall --user 0 com.samsung.android.app.taskedge
-adb shell cmd package install-existing com.sec.android.systemupdate
+adb shell pm uninstall --user 0 com.samsung.android.ipsgeofence    #Samsung Visit-in
+adb shell cmd package install-existing com.sec.android.systemupdate   
 adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
 echo press any key to close terminal
