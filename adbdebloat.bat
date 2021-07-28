@@ -257,31 +257,6 @@ adb shell pm uninstall --user 0 com.sec.android.preloadinstaller
 adb shell pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe
 adb shell pm uninstall --user 0 com.samsung.android.themestore
 adb shell pm uninstall --user 0 com.samsung.android.themecenter
-adb shell pm uninstall --user 0 com.android.theme.color.cinnamon
-adb shell pm uninstall --user 0 com.android.theme.color.black
-adb shell pm uninstall --user 0 com.android.theme.color.green
-adb shell pm uninstall --user 0 com.android.theme.color.ocean
-adb shell pm uninstall --user 0 com.android.theme.color.space
-adb shell pm uninstall --user 0 com.android.theme.color.orchid
-adb shell pm uninstall --user 0 com.android.theme.color.purple
-adb shell pm uninstall --user 0 com.android.theme.icon.square      # Square icon theme
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.systemui   # Rounded icon theme for systemui
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.android       # Rounded icon pack theme
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.themepicker     # Curcular icon pack theme
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.launcher         # Rounded icon pack for launcher
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.settings         # Filled icon pack theme
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.settings      # circular icon pack for settings??
-adb shell pm uninstall --user 0 com.android.theme.icon.teardrop                   # Teardrop icon pack theme
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.systemui      # Filled icon pack theme for system ui
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.android       # Filled icon pack theme
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.systemui  # Circular icon pack theme for systemui
-adb shell pm uninstall --user 0 com.android.theme.icon.squircle            # Squirce android theme
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.launcher # Filled icon kack for launcher
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.launcher # Circular Icon Pack for Launcher
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.themepicker  # Another Filled icon theme 
-adb shell pm uninstall --user 0 com.android.theme.icon.roundedrect                #  Rounded icons ?  
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.settings     # Rounded icon pack for settings
-adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.android      # Circular icon pack 
 adb shell pm uninstall --user 0 com.android.emergency
 adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
 adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
@@ -291,6 +266,57 @@ adb shell pm uninstall --user 0 com.samsung.android.app.clipboardedge
 adb shell pm uninstall --user 0 com.samsung.android.service.peoplestripe
 adb shell pm uninstall --user 0 com.samsung.android.app.taskedge
 adb shell pm uninstall --user 0 com.samsung.android.ipsgeofence    #Samsung Visit-in
+adb shell pm uninstall --user 0 in.amazon.mShop.android.shopping
+adb shell pm uninstall --user 0 com.eterno
+adb shell pm uninstall --user 0 com.google.android.apps.docs
+adb shell pm uninstall --user 0 com.eterno.shortvideos
+adb shell pm uninstall --user 0 com.microsoft.office.officehubrow
+adb shell pm uninstall --user 0 com.microsoft.office.outlook
+adb shell pm uninstall --user 0 com.phonepe.app
+adb shell pm uninstall --user 0 com.amazon.avod.thirdpartyclient
+adb shell pm uninstall --user 0 com.samsung.sree
+adb shell pm uninstall --user 0 com.samsung.android.app.notes.addons
+adb shell pm uninstall --user 0 com.samsung.ecomm.global.in
+adb shell pm uninstall --user 0 com.snapchat.android
+adb shell pm uninstall --user 0 com.google.android.apps.youtube.music
+adb shell pm uninstall --user 0 com.android.theme.color.black
+adb shell pm uninstall --user 0 com.android.theme.color.cinnamon
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.systemui
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.launcher
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.settings
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.android
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.circular.themepicker
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.android
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.launcher
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.systemui
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.settings
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.filled.themepicker
+adb shell pm uninstall --user 0 com.android.theme.color.green
+adb shell pm uninstall --user 0 com.android.theme.font.notoserifsource
+adb shell pm uninstall --user 0 com.android.theme.color.ocean
+adb shell pm uninstall --user 0 com.android.theme.color.orchid
+adb shell pm uninstall --user 0 com.android.theme.icon.pebble
+adb shell pm uninstall --user 0 com.android.theme.color.purple
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.launcher
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.settings
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.themepicker
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.android
+adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.systemui
+adb shell pm uninstall --user 0 com.android.theme.icon.roundedrect
+adb shell pm uninstall --user 0 com.android.theme.color.space
+adb shell pm uninstall --user 0 com.android.theme.icon.taperedrect
+adb shell pm uninstall --user 0 com.android.theme.icon.teardrop
+adb shell pm uninstall --user 0 com.android.theme.icon.vessel
+adb shell pm uninstall --user 0 com.samsung.cmh
+adb shell pm uninstall --user 0 com.sec.android.easyonehand
+adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp
+adb shell pm uninstall --user 0 com.samsung.crane
+adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.hole
+adb shell pm uninstall --user 0 com.sec.android.app.fm
+adb shell pm uninstall --user 0 com.samsung.android.sm.policy
+adb shell pm uninstall --user 0 com.samsung.memorysaver
+adb shell pm uninstall --user 0 com.samsung.android.game.gos
+adb shell pm uninstall --user 0 com.sec.android.emergencylauncher
 adb shell cmd package install-existing com.sec.android.systemupdate   
 adb shell cmd package install-existing com.sec.android.soagent
 echo Completed Action
