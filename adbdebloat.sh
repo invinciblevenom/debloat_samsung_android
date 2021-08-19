@@ -253,12 +253,12 @@ adb shell pm uninstall --user 0 com.samsung.android.themecenter
 adb shell pm uninstall --user 0 com.android.emergency
 adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
 adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
-adb shell pm uninstall --user 0 com.samsung.android.app.soundpicker #Sound Picker
-adb shell pm uninstall --user 0 com.samsung.android.uds  #Ultra Data Saving mode
+adb shell pm uninstall --user 0 com.samsung.android.app.soundpicker              #Sound Picker
+adb shell pm uninstall --user 0 com.samsung.android.uds                          #Ultra Data Saving mode
 adb shell pm uninstall --user 0 com.samsung.android.app.clipboardedge
 adb shell pm uninstall --user 0 com.samsung.android.service.peoplestripe
 adb shell pm uninstall --user 0 com.samsung.android.app.taskedge
-adb shell pm uninstall --user 0 com.samsung.android.ipsgeofence    #Samsung Visit-in
+adb shell pm uninstall --user 0 com.samsung.android.ipsgeofence                  #Samsung Visit-in
 adb shell pm uninstall --user 0 in.amazon.mShop.android.shopping
 adb shell pm uninstall --user 0 com.eterno
 adb shell pm uninstall --user 0 com.google.android.apps.docs
@@ -300,15 +300,21 @@ adb shell pm uninstall --user 0 com.android.theme.color.space
 adb shell pm uninstall --user 0 com.android.theme.icon.taperedrect
 adb shell pm uninstall --user 0 com.android.theme.icon.teardrop
 adb shell pm uninstall --user 0 com.android.theme.icon.vessel
-adb shell pm uninstall --user 0 com.samsung.cmh
+adb shell pm uninstall --user 0 com.samsung.cmh                               #Somehow related to Video Calling
 adb shell pm uninstall --user 0 com.sec.android.easyonehand
-adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp
-adb shell pm uninstall --user 0 com.samsung.crane
+adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp              #Wifi Calling, VoLTE and Video calling related
+adb shell pm uninstall --user 0 com.samsung.crane                             #Video Calling related 
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.hole
 adb shell pm uninstall --user 0 com.sec.android.app.fm
 adb shell pm uninstall --user 0 com.samsung.android.sm.policy
 adb shell pm uninstall --user 0 com.samsung.memorysaver
 adb shell pm uninstall --user 0 com.samsung.android.game.gos
 adb shell pm uninstall --user 0 com.sec.android.emergencylauncher
+adb shell pm uninstall --user 0 com.monotype.android.font.foundation
+adb shell pm uninstall --user 0 com.sec.sve                                    #Secondary Video Engine Service
+adb shell pm uninstall --user 0 com.sec.unifiedwfc                             #Wifi Calling
+adb shell pm uninstall --user 0 com.android.egg                                #Android Egg
+adb shell pm uninstall --user 0 com.samsung.android.app.appsedge               #Split Screen won't break
+adb shell pm uninstall --user 0 com.samsung.rcs                                #Rich Communication Services
 adb shell cmd package install-existing com.sec.android.systemupdate   
 adb shell cmd package install-existing com.sec.android.soagent
