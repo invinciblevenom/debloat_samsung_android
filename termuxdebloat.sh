@@ -253,12 +253,12 @@ pm uninstall --user 0 com.samsung.android.themecenter
 pm uninstall --user 0 com.android.emergency
 pm uninstall --user 0 com.sec.android.emergencymode.service
 pm uninstall --user 0 com.sec.android.provider.emergencymode
-pm uninstall --user 0 com.samsung.android.app.soundpicker #Sound Picker
-pm uninstall --user 0 com.samsung.android.uds  #Ultra Data Saving mode
+pm uninstall --user 0 com.samsung.android.app.soundpicker              #Sound Picker
+pm uninstall --user 0 com.samsung.android.uds                          #Ultra Data Saving mode
 pm uninstall --user 0 com.samsung.android.app.clipboardedge
 pm uninstall --user 0 com.samsung.android.service.peoplestripe
 pm uninstall --user 0 com.samsung.android.app.taskedge
-pm uninstall --user 0 com.samsung.android.ipsgeofence    #Samsung Visit-in
+pm uninstall --user 0 com.samsung.android.ipsgeofence                  #Samsung Visit-in
 pm uninstall --user 0 in.amazon.mShop.android.shopping
 pm uninstall --user 0 com.eterno
 pm uninstall --user 0 com.google.android.apps.docs
@@ -300,15 +300,21 @@ pm uninstall --user 0 com.android.theme.color.space
 pm uninstall --user 0 com.android.theme.icon.taperedrect
 pm uninstall --user 0 com.android.theme.icon.teardrop
 pm uninstall --user 0 com.android.theme.icon.vessel
-pm uninstall --user 0 com.samsung.cmh
+pm uninstall --user 0 com.samsung.cmh                               #Somehow related to Video Calling
 pm uninstall --user 0 com.sec.android.easyonehand
-pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp
-pm uninstall --user 0 com.samsung.crane
+pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp              #Wifi Calling, VoLTE and Video calling related
+pm uninstall --user 0 com.samsung.crane                             #Video Calling related 
 pm uninstall --user 0 com.android.internal.display.cutout.emulation.hole
 pm uninstall --user 0 com.sec.android.app.fm
 pm uninstall --user 0 com.samsung.android.sm.policy
 pm uninstall --user 0 com.samsung.memorysaver
 pm uninstall --user 0 com.samsung.android.game.gos
 pm uninstall --user 0 com.sec.android.emergencylauncher
+pm uninstall --user 0 com.monotype.android.font.foundation
+pm uninstall --user 0 com.sec.sve                                    #Secondary Video Engine Service
+pm uninstall --user 0 com.sec.unifiedwfc                             #Wifi Calling
+pm uninstall --user 0 com.android.egg                                #Android Egg
+pm uninstall --user 0 com.samsung.android.app.appsedge               #Split Screen won't break
+pm uninstall --user 0 com.samsung.rcs                                #Rich Communication Services
 cmd package install-existing com.sec.android.systemupdate   
-cmd package install-existing com.sec.android.soagent 
+cmd package install-existing com.sec.android.soagent
