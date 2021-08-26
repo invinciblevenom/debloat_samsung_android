@@ -1,6 +1,6 @@
-# debloat_samsung_android: OneUI Debloat Script by invinciblevenom
+# OneUI Debloat Script by invinciblevenom
 
-## How to:
+## How to: 
 Just download the latest release and run the script.
 
 Warning: This is extreme debloat script. It removes almost all apps which can be safely removed. Many features may break after using this.
