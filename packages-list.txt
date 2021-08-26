@@ -1,8 +1,4 @@
 System Packages List(OneUI Core 3.1 INS Firmware: 
-Obtained using following command:
-~~~
-adb shell pm list packages
-~~~
 
 com.google.android.networkstack.tethering
 com.samsung.android.provider.filterprovider
