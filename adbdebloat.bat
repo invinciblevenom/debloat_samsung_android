@@ -1,5 +1,5 @@
 @echo off
-@echo Batch Removing System Apps by Yillie and invinciblevenom
+@echo Batch Removing System Apps by invinciblevenom
 @echo =====================================================================
 echo.
 echo.
@@ -9,7 +9,7 @@ adb shell pm uninstall --user 0 com.amazon.avod.thirdpartyclient
 adb shell pm uninstall --user 0 com.android.apps.tag                                    #Tags
 adb shell pm uninstall --user 0 com.android.bips                                        #Default Print service
 adb shell pm uninstall --user 0 com.android.bipscom.wsomacp
-adb shell pm uninstall --user 0 com.android.bookmarkprovider                            #BookMark Provider
+adb shell pm uninstall --user 0 com.android.bookmarkprovider                            #Bookmarks Provider
 adb shell pm uninstall --user 0 com.android.calllogbackup                               
 adb shell pm uninstall --user 0 com.android.chrome
 adb shell pm uninstall --user 0 com.android.cts.ctsshim
@@ -62,7 +62,7 @@ adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.launcher
 adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.settings
 adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.systemui
 adb shell pm uninstall --user 0 com.android.theme.icon_pack.rounded.themepicker
-adb shell pm uninstall --user 0 com.android.traceur                                     #System Trace
+adb shell pm uninstall --user 0 com.android.traceur                                     #System Trace in Developer options
 adb shell pm uninstall --user 0 com.android.wallpaperbackup                             #Backup Wallpaper
 adb shell pm uninstall --user 0 com.aura.oobe.samsung                                   #Samsung Discover
 adb shell pm uninstall --user 0 com.aura.oobe.samsung.gl                                
@@ -171,7 +171,7 @@ adb shell pm uninstall --user 0 com.samsung.android.icecone                     
 adb shell pm uninstall --user 0 com.samsung.android.ipsgeofence                         #Samsung Visit-in
 adb shell pm uninstall --user 0 com.samsung.android.kidsinstaller                       #Kids installer
 adb shell pm uninstall --user 0 com.samsung.android.knox.analytics.uploader             #Knox analytics Uploader
-adb shell pm uninstall --user 0 com.samsung.android.knox.attestation                    #Knox bloat    
+adb shell pm uninstall --user 0 com.samsung.android.knox.attestation                    #Knox related 
 adb shell pm uninstall --user 0 com.samsung.android.knox.containeragent                 #Work Profile
 adb shell pm uninstall --user 0 com.samsung.android.knox.pushmanager
 adb shell pm uninstall --user 0 com.samsung.android.livestickers                        #DECO PIC
