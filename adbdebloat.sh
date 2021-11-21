@@ -199,6 +199,7 @@ adb shell pm uninstall --user 0 com.samsung.android.smartfitting
 adb shell pm uninstall --user 0 com.samsung.android.smartmirroring                      #Smart View
 adb shell pm uninstall --user 0 com.samsung.android.smartswitchassistant     
 adb shell pm uninstall --user 0 com.samsung.android.spayfw                              #Samsung Payment Firmware
+adb shell pm uninstall --user 0 com.samsung.android.spaymini                            #Samasung Pay Mini
 adb shell pm uninstall --user 0 com.samsung.android.stickercenter                       #Sticker centre
 adb shell pm uninstall --user 0 com.samsung.android.svcagent                            #Samsung mate agent
 adb shell pm uninstall --user 0 com.samsung.android.svoiceime                           #Samsung Voice Input 
