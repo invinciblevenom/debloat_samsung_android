@@ -21,14 +21,3 @@ adb shell settings put global debug_app 0
 adb shell pm disable-user --user 0 com.samsung.android.game.gos
 adb shell pm clear --user 0 com.samsung.android.game.gos
 adb shell settings put secure game_auto_temperature_control 0
-
-#Change_these_Settings
-Adaptive Battery: DISABLED
-Location Services - Wifi Scanning - DISABLED
-Emergency Location Service: DISABLED
-Background Check: DISABLED
-Go to Settings, Apps. Enable "show system apps" then look for each of:
-"OneUI Home", "Your Keyboard", "Android System", "System UI", & all the "Gesture" apps.
-- Under app info, Battery, set to UNRESTRICTED
-Turn off Scene Optimizer
-Set battery usage to "Unrestricted" for "com.samsung.android.biometrics.app.setting"

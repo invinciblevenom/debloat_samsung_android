@@ -1,4 +1,9 @@
-
+@echo off
+@echo Batch Removing System Apps by invinciblevenom
+@echo =============================================
+echo.
+echo.
+adb devices
 adb shell pm uninstall --user 0 android.autoinstalls.config.samsung
 adb shell pm uninstall --user 0 com.android.bips
 adb shell pm uninstall --user 0 com.android.bookmarkprovider
@@ -79,7 +84,7 @@ adb shell pm uninstall --user 0 com.samsung.android.shortcutbackupservice
 adb shell pm uninstall --user 0 com.samsung.android.singletake.service
 adb shell pm uninstall --user 0 com.samsung.android.smartcallprovider
 adb shell pm uninstall --user 0 com.samsung.android.smartface
-#adb shell pm uninstall --user 0 com.samsung.android.smartmirroring
+#adb shell pm uninstall --user 0 com.samsung.android.smartmirroring  Removing it breaks Video Player
 adb shell pm uninstall --user 0 com.samsung.android.spaymini
 adb shell pm uninstall --user 0 com.samsung.android.stickercenter
 adb shell pm uninstall --user 0 com.samsung.android.themecenter
@@ -140,3 +145,6 @@ adb shell pm uninstall --user 0 com.sec.android.app.wlantest
 adb shell pm uninstall --user 0 com.google.android.partnersetup
 adb shell pm uninstall --user 0 com.google.android.apps.carrier.carrierwifi
 adb shell pm uninstall --user 0 com.samsung.android.sm.devicesecurity
+echo Completed Action
+echo Press any key to exit terminal.
+pause>null
