@@ -28,7 +28,7 @@ adb shell cmd package install-existing com.sec.android.app.samsungapps
 ~~~
 
 ### Visible System Apps (OneUI Core 4.1 - INS Firmware)
-<img src="1.jpg" width="200"/>  <img src="2.jpg" width="200"/>
+<img src="1.png" width="200"/>  <img src="2.png" width="200"/>
 
 ### After Script
 <img src="3.png" width="200"/>
