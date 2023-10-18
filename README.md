@@ -7,10 +7,10 @@
 3. Emergency Location Service: DISABLED
 4. Background Check: DISABLED
 5. Go to Settings, Apps. Enable "show system apps" then look for each of:
-"OneUI Home", "Your Keyboard", "Android System", "System UI", & all the "Gesture" apps.
+"OneUI Home", "(Your Keyboard)", "Android System", "System UI", & all the "Gesture" apps.
 - Under app info, Battery, set to UNRESTRICTED
 6. Turn off Scene Optimizer
-7. Set battery usage to "Unrestricted" for "com.samsung.android.biometrics.app.setting"
+7. Set battery usage to "Unrestricted" for "com.samsung.android.biometrics.app.setting" to fix any fingerprint bugs.
 
 ## How to: 
 Just download the latest release and run the script.
