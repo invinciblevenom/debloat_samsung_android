@@ -119,7 +119,7 @@ adb shell pm uninstall --user 0 com.sec.hearingadjust
 adb shell pm uninstall --user 0 com.sec.location.nsflp2
 adb shell pm uninstall --user 0 com.sec.mhs.smarttethering
 adb shell pm uninstall --user 0 com.sec.spp.push
-adb shell pm uninstall --user 0 com.sec.unifiedwfc
+#adb shell pm uninstall --user 0 com.sec.unifiedwfc           WiFi calling app
 adb shell pm uninstall --user 0 com.android.cts.ctsshim
 adb shell pm uninstall --user 0 com.android.cts.priv.ctsshim
 adb shell pm uninstall --user 0 com.android.providers.partnerbookmarks
