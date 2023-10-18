@@ -202,7 +202,7 @@ adb shell pm uninstall --user 0 com.samsung.android.sm.policy
 adb shell pm uninstall --user 0 com.samsung.android.smartcallprovider
 adb shell pm uninstall --user 0 com.samsung.android.smartface
 adb shell pm uninstall --user 0 com.samsung.android.smartfitting
-adb shell pm uninstall --user 0 com.samsung.android.smartmirroring                      #Smart View
+#adb shell pm uninstall --user 0 com.samsung.android.smartmirroring                      #Smart View
 adb shell pm uninstall --user 0 com.samsung.android.smartswitchassistant     
 adb shell pm uninstall --user 0 com.samsung.android.spayfw                              #Samsung Payment Firmware
 adb shell pm uninstall --user 0 com.samsung.android.spaymini                            #Samasung Pay Mini
@@ -219,8 +219,8 @@ adb shell pm uninstall --user 0 com.samsung.android.visionintelligence          
 adb shell pm uninstall --user 0 com.samsung.android.visualars
 adb shell pm uninstall --user 0 com.samsung.android.voc
 adb shell pm uninstall --user 0 com.samsung.app.highlightplayer                         #Create Movie
-adb shell pm uninstall --user 0 com.samsung.cmh                                         #Somehow related to Video Calling
-adb shell pm uninstall --user 0 com.samsung.crane                                       #Video Calling related 
+#adb shell pm uninstall --user 0 com.samsung.cmh                                         #Somehow related to Video Calling
+#adb shell pm uninstall --user 0 com.samsung.crane                                       #Video Calling related 
 adb shell pm uninstall --user 0 com.samsung.discover                                    #Discover App
 adb shell pm uninstall --user 0 com.samsung.ecomm.global.in
 adb shell pm uninstall --user 0 com.samsung.faceservice
@@ -287,8 +287,8 @@ adb shell pm uninstall --user 0 com.sec.mhs.smarttethering                      
 adb shell pm uninstall --user 0 com.sec.mldapchecker                                    #MLDAPlog
 adb shell pm uninstall --user 0 com.sec.spp.push                                        #Samsung Push Service
 adb shell pm uninstall --user 0 com.sec.sve                                             #Secondary Video Engine Service
-adb shell pm uninstall --user 0 com.sec.unifiedwfc                                      #Wifi Calling
-adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp                        #Wifi Calling, VoLTE and Video calling related
+#adb shell pm uninstall --user 0 com.sec.unifiedwfc                                      #Wifi Calling
+#adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp                        #Wifi Calling, VoLTE and Video calling related
 adb shell pm uninstall --user 0 com.skms.android.agent
 adb shell pm uninstall --user 0 com.snapchat.android
 adb shell pm uninstall --user 0 com.yandex.browser
