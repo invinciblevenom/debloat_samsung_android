@@ -1,5 +1,5 @@
 @echo off
-@echo Batch Removing System Apps by invinciblevenom
+@echo Heavy Debloater Script by invinciblevenom
 @echo =============================================
 echo.
 echo.
@@ -180,8 +180,8 @@ adb shell pm uninstall --user 0 com.samsung.android.mateagent                   
 adb shell pm uninstall --user 0 com.samsung.android.mcfserver                           #Samsung Multiple Connectivity
 adb shell pm uninstall --user 0 com.samsung.android.mdecservice                         #Call and text on other devices
 adb shell pm uninstall --user 0 com.samsung.android.mdm                                 #Knox manage
-adb shell pm uninstall --user 0 com.samsung.android.mdx
-adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
+#adb shell pm uninstall --user 0 com.samsung.android.mdx
+#adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
 adb shell pm uninstall --user 0 com.samsung.android.mfi                                 #Galaxy Widget
 adb shell pm uninstall --user 0 com.samsung.android.mobileservice                       #Samsung Experience
 adb shell pm uninstall --user 0 com.samsung.android.net.wifi.wifiguider                 #WIFI tips

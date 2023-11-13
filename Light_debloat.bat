@@ -1,5 +1,5 @@
 @echo off
-@echo Batch Removing System Apps by invinciblevenom
+@echo Light Debloater Script by invinciblevenom
 @echo =============================================
 echo.
 echo.
@@ -130,8 +130,8 @@ adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
 adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
 adb shell pm uninstall --user 0 com.samsung.android.sdk.handwriting
 adb shell pm uninstall --user 0 com.android.htmlviewer
-adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
-adb shell pm uninstall --user 0 com.samsung.android.mdx.quickboard
+#adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
+#adb shell pm uninstall --user 0 com.samsung.android.mdx.quickboard
 adb shell pm uninstall --user 0 com.google.android.as.oss
 adb shell pm uninstall --user 0 com.samsung.android.privateshare
 adb shell pm uninstall --user 0 com.sec.android.app.fm
