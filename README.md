@@ -1,7 +1,11 @@
 # OneUI Debloat Script
 
 ## How to use Script: 
-Just download the latest release, extract the zip file and run the script. Tp run the script, connect phone to PC with ADB.
+Clone or Download the repository and navigate to your desired operating system folder. <br>
+
+For **Linux**: Click [HERE](https://github.com/sajidshahriar72543/debloat_samsung_android/tree/main/linux) <br>
+For **Windows**: Click [HERE](https://github.com/sajidshahriar72543/debloat_samsung_android/tree/main/windows)
+
 
 Choose between Light or Heavy depending on your usage. For normal user it is recommended to use Light Debloat Script. Post debloat script, run the Tweaks script, change the Settings mentioned below and then Restart your phone.
 
@@ -31,10 +35,10 @@ adb shell cmd package install-existing com.sec.android.app.samsungapps
 ~~~
 
 ### Visible System Apps (OneUI Core 4.1 - INS Firmware on Samsung M21)
-<img src="1.jpg" width="200"/>  <img src="2.jpg" width="200"/>
+<img src="src/1.jpg" width="200"/>  <img src="src/2.jpg" width="200"/>
 
 ### After Light Debloat Script
-<img src="3.jpg" width="200"/>
+<img src="src/3.jpg" width="200"/>
 
 ### After Heavy Debloat Script
-<img src="4.png" width="200"/>
+<img src="src/4.png" width="200"/>
