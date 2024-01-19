@@ -37,4 +37,4 @@ adb shell cmd package install-existing com.sec.android.app.samsungapps
 <img src="src/3.jpg" width="200"/>
 
 ### After Heavy Debloat Script
-<img src="src/4.png" width="200"/>
+<img src="src/4.jpg" width="200"/>
