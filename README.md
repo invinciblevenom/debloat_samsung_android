@@ -1,11 +1,11 @@
 # OneUI Debloat Script
 
 ## How to use Script: 
-Just download the latest release, extract the zip file and run the script. Tp run the script, connect phone to PC with ADB.
+Just download the latest release, extract the zip file and run the script. To run the script, connect phone to PC through ADB.
 
-Choose between Light or Heavy depending on your usage. For normal user it is recommended to use Light Debloat Script. Post debloat script, run the Tweaks script, change the Settings mentioned below and then Restart your phone.
+Choose between Light or Heavy depending on your usage. For normal user it's recommended to use Light Debloat Script. Post debloat script, run the Tweaks script, change the Settings mentioned below and then Restart your phone.
 
-Warning: It removes almost all apps which can be safely removed. Many features may not be available after using this.
+Warning: Heavy Debloat script removes almost all apps which can be safely removed. Many features may not be available after using this. These can be availed after restoring that app.
 
 ## Change these Settings:
 1. Adaptive Battery: Disabled
@@ -30,11 +30,17 @@ Example-
 adb shell cmd package install-existing com.sec.android.app.samsungapps
 ~~~
 
-### Visible System Apps (OneUI Core 4.1 - INS Firmware on Samsung M21)
-<img src="src/1.jpg" width="200"/>  <img src="src/2.jpg" width="200"/>
+## Note:
+Open an issue here or connect me over Telegram if you need help!
+
+## Visible System Apps (OneUI Core 4.1 - INS Firmware on Samsung M21)
+<img src="1.jpg" width="200"/>  <img src="2.jpg" width="200"/>
 
 ### After Light Debloat Script
-<img src="src/3.jpg" width="200"/>
+<img src="3.jpg" width="200"/>
 
 ### After Heavy Debloat Script
-<img src="src/4.jpg" width="200"/>
+<img src="4.jpg" width="200"/>
+
+## Credits:
+Samsung for adding them and me for removing them :)
