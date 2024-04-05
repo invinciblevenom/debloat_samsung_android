@@ -23,7 +23,7 @@ adb shell pm uninstall --user 0 com.google.android.apps.tachyon
 adb shell pm uninstall --user 0 com.google.android.apps.turbo
 adb shell pm uninstall --user 0 com.google.android.as
 adb shell pm uninstall --user 0 com.google.android.feedback
-adb shell pm uninstall --user 0 com.google.android.gms.location.history
+#adb shell pm uninstall --user 0 com.google.android.gms.location.history
 adb shell pm uninstall --user 0 com.google.android.googlequicksearchbox
 adb shell pm uninstall --user 0 com.google.android.printservice.recommendation
 adb shell pm uninstall --user 0 com.google.android.projection.gearhead
@@ -75,7 +75,7 @@ adb shell pm uninstall --user 0 com.samsung.android.mdm
 adb shell pm uninstall --user 0 com.samsung.android.mfi
 adb shell pm uninstall --user 0 com.samsung.android.mobileservice
 adb shell pm uninstall --user 0 com.samsung.android.rubin.app
-adb shell pm uninstall --user 0 com.samsung.android.samsungpositioning
+#adb shell pm uninstall --user 0 com.samsung.android.samsungpositioning
 adb shell pm uninstall --user 0 com.samsung.android.scloud
 adb shell pm uninstall --user 0 com.samsung.android.service.peoplestripe
 adb shell pm uninstall --user 0 com.samsung.android.service.stplatform
@@ -125,9 +125,9 @@ adb shell pm uninstall --user 0 com.android.cts.priv.ctsshim
 adb shell pm uninstall --user 0 com.android.providers.partnerbookmarks
 adb shell pm uninstall --user 0 com.google.android.nearby.halfsheet
 adb shell pm uninstall --user 0 com.samsung.android.smartswitchassistant
-adb shell pm uninstall --user 0 com.android.emergency
-adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
-adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
+#adb shell pm uninstall --user 0 com.android.emergency
+#adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
+#adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
 adb shell pm uninstall --user 0 com.samsung.android.sdk.handwriting
 adb shell pm uninstall --user 0 com.android.htmlviewer
 #adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
