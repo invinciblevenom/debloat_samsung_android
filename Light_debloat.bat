@@ -1,8 +1,6 @@
-@echo off
-@echo Light Debloater Script by invinciblevenom
-@echo =============================================
-echo.
-echo.
+echo Heavy Debloater Script by invinciblevenom
+echo =============================================
+echo Checking connected devices
 adb devices
 #adb shell pm uninstall --user 0 com.android.emergency
 #adb shell pm uninstall --user 0 com.google.android.gms.location.history
@@ -165,5 +163,7 @@ adb shell pm uninstall --user 0 com.sec.location.nsflp2
 adb shell pm uninstall --user 0 com.sec.mhs.smarttethering
 adb shell pm uninstall --user 0 com.sec.spp.push
 echo Completed Action
+echo Killing adb server
+adb kill-server
 echo Press any key to exit terminal.
-pause>null
+pause 
