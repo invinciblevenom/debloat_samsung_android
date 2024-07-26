@@ -1,8 +1,6 @@
-@echo off
-@echo Heavy Debloater Script by invinciblevenom
-@echo =============================================
-echo.
-echo.
+echo Heavy Debloater Script by invinciblevenom
+echo =============================================
+echo Checking connected devices
 adb devices
 #adb shell pm uninstall --user 0 com.samsung.android.mdx
 #adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
@@ -320,5 +318,7 @@ adb shell pm uninstall --user 0 ru.yandex.yandexmaps
 adb shell cmd package install-existing com.sec.android.soagent
 adb shell cmd package install-existing com.sec.android.systemupdate 
 echo Completed Action
+echo Killing adb server
+adb kill-server
 echo Press any key to exit terminal.
-pause>null
+pause 
