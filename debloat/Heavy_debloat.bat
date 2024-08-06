@@ -85,7 +85,7 @@ adb shell pm uninstall --user 0 com.facebook.appmanager
 adb shell pm uninstall --user 0 com.facebook.katana                                     #Facebook
 adb shell pm uninstall --user 0 com.facebook.services                                   #Facebook related
 adb shell pm uninstall --user 0 com.facebook.system                                     #Facebook app installer
-adb shell pm uninstall --user 0 com.google.android.apps.accessibility.voiceaccess    #Google Voice Access (voice commands for Google Assistant)
+adb shell pm uninstall --user 0 com.google.android.apps.accessibility.voiceaccess       #Google Voice Access (voice commands for Google Assistant)
 adb shell pm uninstall --user 0 com.google.android.apps.carrier.carrierwifi				#Google Wifi provisioner
 adb shell pm uninstall --user 0 com.google.android.apps.docs
 adb shell pm uninstall --user 0 com.google.android.apps.gcs								#Google connected services

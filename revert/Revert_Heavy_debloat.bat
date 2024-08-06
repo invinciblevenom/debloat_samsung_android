@@ -85,7 +85,8 @@ adb shell cmd package install-existing com.facebook.appmanager
 adb shell cmd package install-existing com.facebook.katana                                     #Facebook
 adb shell cmd package install-existing com.facebook.services                                   #Facebook related
 adb shell cmd package install-existing com.facebook.system                                     #Facebook app installer
-adb shell cmd package install-existing com.google.android.apps.carrier.carrierwifi				#Google Wifi provisioner
+adb shell cmd package install-existing com.google.android.apps.accessibility.voiceaccess       #Google Voice Access (voice commands for Google Assistant)
+adb shell cmd package install-existing com.google.android.apps.carrier.carrierwifi			   #Google Wifi provisioner
 adb shell cmd package install-existing com.google.android.apps.docs
 adb shell cmd package install-existing com.google.android.apps.gcs								#Google connected services
 adb shell cmd package install-existing com.google.android.apps.maps
