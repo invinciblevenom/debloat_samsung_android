@@ -1,4 +1,4 @@
-echo Heavy Debloater Script by invinciblevenom
+echo Tweaks Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
