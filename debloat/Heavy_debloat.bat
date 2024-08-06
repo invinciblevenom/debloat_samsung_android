@@ -314,6 +314,7 @@ adb shell pm uninstall --user 0 com.sec.spp.push                                
 adb shell pm uninstall --user 0 com.sec.sve                                             #Secondary Video Engine Service
 adb shell pm uninstall --user 0 com.skms.android.agent
 adb shell pm uninstall --user 0 com.snapchat.android
+adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                           #Snapchat Camera Kit
 adb shell pm uninstall --user 0 com.yandex.browser
 adb shell pm uninstall --user 0 de.axelspringer.yana.zeropage
 adb shell pm uninstall --user 0 flipboard.boxer.app                                     #Flipboard

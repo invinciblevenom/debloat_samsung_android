@@ -1,4 +1,4 @@
-echo Heavy Debloater Script by invinciblevenom
+echo Light Debloater Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
@@ -7,10 +7,10 @@ adb devices
 #adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
 #adb shell pm uninstall --user 0 com.samsung.android.mdx.quickboard
 #adb shell pm uninstall --user 0 com.samsung.android.samsungpositioning
-#adb shell pm uninstall --user 0 com.samsung.android.smartmirroring  Removing it breaks Video Player
+#adb shell pm uninstall --user 0 com.samsung.android.smartmirroring                   #Removing it breaks Video Player
 #adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
 #adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
-#adb shell pm uninstall --user 0 com.sec.unifiedwfc           WiFi calling app
+#adb shell pm uninstall --user 0 com.sec.unifiedwfc                                   #WiFi calling app
 adb shell pm uninstall --user 0 android.autoinstalls.config.samsung
 adb shell pm uninstall --user 0 com.android.bips
 adb shell pm uninstall --user 0 com.android.bookmarkprovider
@@ -162,6 +162,7 @@ adb shell pm uninstall --user 0 com.sec.hearingadjust
 adb shell pm uninstall --user 0 com.sec.location.nsflp2
 adb shell pm uninstall --user 0 com.sec.mhs.smarttethering
 adb shell pm uninstall --user 0 com.sec.spp.push
+adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                           #Snapchat Camera Kit
 echo Completed Action
 echo Killing adb server
 adb kill-server
