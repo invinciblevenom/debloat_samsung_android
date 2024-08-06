@@ -4,11 +4,11 @@ echo Checking connected devices
 adb devices
 #adb shell pm uninstall --user 0 com.samsung.android.mdx
 #adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
-#adb shell pm uninstall --user 0 com.samsung.android.smartmirroring                      #Smart View
-#adb shell pm uninstall --user 0 com.samsung.cmh                                         #Somehow related to Video Calling
-#adb shell pm uninstall --user 0 com.samsung.crane                                       #Video Calling related 
-#adb shell pm uninstall --user 0 com.sec.unifiedwfc                                      #Wifi Calling
-#adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp                        #Wifi Calling, VoLTE and Video calling related
+#adb shell pm uninstall --user 0 com.samsung.android.smartmirroring                     #Smart View
+#adb shell pm uninstall --user 0 com.samsung.cmh                                        #Somehow related to Video Calling
+#adb shell pm uninstall --user 0 com.samsung.crane                                      #Video Calling related 
+#adb shell pm uninstall --user 0 com.sec.unifiedwfc                                     #Wifi Calling
+#adb shell pm uninstall --user 0 com.sec.vsim.ericssonnsds.webapp                       #Wifi Calling, VoLTE and Video calling related
 adb shell pm uninstall --user 0 android.autoinstalls.config.samsung
 adb shell pm uninstall --user 0 com.amazon.avod.thirdpartyclient              
 adb shell pm uninstall --user 0 com.android.apps.tag                                    #Tags
@@ -27,6 +27,7 @@ adb shell pm uninstall --user 0 com.android.emergency
 adb shell pm uninstall --user 0 com.android.hotspot2                                    #OsuLogin
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
+adb shell pm uninstall --user 0 com.android.hotwordenrollment.tgoogle				
 adb shell pm uninstall --user 0 com.android.htmlviewer                                  
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.double    
@@ -84,7 +85,9 @@ adb shell pm uninstall --user 0 com.facebook.appmanager
 adb shell pm uninstall --user 0 com.facebook.katana                                     #Facebook
 adb shell pm uninstall --user 0 com.facebook.services                                   #Facebook related
 adb shell pm uninstall --user 0 com.facebook.system                                     #Facebook app installer
+adb shell pm uninstall --user 0 com.google.android.apps.carrier.carrierwifi				#Google Wifi provisioner
 adb shell pm uninstall --user 0 com.google.android.apps.docs
+adb shell pm uninstall --user 0 com.google.android.apps.gcs								#Google connected services
 adb shell pm uninstall --user 0 com.google.android.apps.maps
 adb shell pm uninstall --user 0 com.google.android.apps.messaging
 adb shell pm uninstall --user 0 com.google.android.apps.photos
@@ -92,8 +95,10 @@ adb shell pm uninstall --user 0 com.google.android.apps.restore
 adb shell pm uninstall --user 0 com.google.android.apps.setupwizard.searchselector
 adb shell pm uninstall --user 0 com.google.android.apps.tachyon                         #Google Duo
 adb shell pm uninstall --user 0 com.google.android.apps.turbo
+adb shell pm uninstall --user 0 com.google.android.apps.wellbeing						#Digital Well being
 adb shell pm uninstall --user 0 com.google.android.apps.youtube.music
 adb shell pm uninstall --user 0 com.google.android.as
+adb shell pm uninstall --user 0 com.google.android.as.oss								#Private Compute Services
 adb shell pm uninstall --user 0 com.google.android.cellbroadcastreceiver
 adb shell pm uninstall --user 0 com.google.android.configupdater
 adb shell pm uninstall --user 0 com.google.android.ext.shared                           #Android Shared Library
@@ -192,6 +197,7 @@ adb shell pm uninstall --user 0 com.samsung.android.knox.containeragent         
 adb shell pm uninstall --user 0 com.samsung.android.knox.containercore
 adb shell pm uninstall --user 0 com.samsung.android.knox.pushmanager
 adb shell pm uninstall --user 0 com.samsung.android.livestickers                        #DECO PIC
+adb shell pm uninstall --user 0 com.samsung.android.lool								#Device care
 adb shell pm uninstall --user 0 com.samsung.android.mapsagent                           #Personalisation Agent
 adb shell pm uninstall --user 0 com.samsung.android.mateagent                           #Samsung Galaxy Agents
 adb shell pm uninstall --user 0 com.samsung.android.mcfds
