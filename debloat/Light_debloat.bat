@@ -1,4 +1,4 @@
-echo Light Debloater Script by invinciblevenom
+echo Light Debloat Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
