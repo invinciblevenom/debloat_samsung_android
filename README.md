@@ -36,7 +36,7 @@ adb shell cmd package install-existing <package name>
 ~~~
 adb shell cmd package install-existing com.sec.android.app.samsungapps
 ~~~
-⋅⋅⋅ (Replace <package name> with the actual package name of the desired app.)
+- Replace <package name> with the actual package name of the desired app.
 
 ## Reverting to Stock Condition:
 To restore your phone to its original state with all default apps installed, run the script located in the "revert" folder.
