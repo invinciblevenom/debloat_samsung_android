@@ -1,4 +1,4 @@
-echo Revert for Heavy Debloater Script by invinciblevenom
+echo Revert for Heavy Debloat Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
@@ -325,7 +325,7 @@ adb shell cmd package install-existing ru.yandex.searchplugin
 adb shell cmd package install-existing ru.yandex.yandexmaps 
 adb shell cmd package install-existing com.sec.android.soagent
 adb shell cmd package install-existing com.sec.android.systemupdate 
-echo Completed Action
+echo All changes have been reverted.
 echo Killing adb server
 adb kill-server
 echo Press any key to exit terminal.

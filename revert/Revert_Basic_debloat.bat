@@ -103,7 +103,7 @@ adb shell cmd package install-existing com.sec.hearingadjust
 adb shell cmd package install-existing com.sec.location.nsflp2
 adb shell cmd package install-existing com.sec.spp.push
 adb shell cmd package install-existing com.snap.camerakit.plugin.v1                           #Snapchat Camera Kit
-echo Completed Action
+echo All changes have been reverted.
 echo Killing adb server
 adb kill-server
 echo Press any key to exit terminal.

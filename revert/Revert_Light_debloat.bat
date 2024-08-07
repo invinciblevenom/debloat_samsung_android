@@ -1,4 +1,4 @@
-echo Revert for Light Debloater Script by invinciblevenom
+echo Revert for Light Debloat Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
@@ -163,7 +163,7 @@ adb shell cmd package install-existing com.sec.location.nsflp2
 adb shell cmd package install-existing com.sec.mhs.smarttethering
 adb shell cmd package install-existing com.sec.spp.push
 adb shell cmd package install-existing com.snap.camerakit.plugin.v1                            #Snapchat Camera Kit
-echo Completed Action
+echo All changes have been reverted.
 echo Killing adb server
 adb kill-server
 echo Press any key to exit terminal.
