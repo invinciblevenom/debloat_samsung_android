@@ -1,41 +1,48 @@
 # OneUI Debloat Script
 
 ## How to use Script: 
-Just download the latest release, extract the zip file and run the script from debloat folder. To run the script, connect phone to PC through ADB. It's recommended to use script during first setup or after resetting your device so that there is no loss of personal files.
+Download the latest release, extract the ZIP file, and run the script from the "debloat" folder. To run the script, connect your phone to your PC using ADB. For best results, use the script during the initial device setup or after a factory reset to avoid losing personal data.
 
-Choose between Light or Heavy depending on your usage. For normal user it's recommended to use Light Debloat Script. Post debloat script, run the Tweaks script, change the Settings mentioned below and then Restart your phone.
+## Choose the Basic, Light, or Heavy script based on your needs:
+Basic: For users who want to sign in to their Samsung account.
+Light: Recommended for users without a Samsung account.
+Heavy: Removes almost all removable apps for maximum system optimization. Be aware that many features might become unavailable.
 
-Warning: 
-1. Light Debloat script removes the feature to sign-in to Samsung account. Do not proceed if you want to sign-in your Samsung account.
-2. Heavy Debloat script removes almost all apps which can be safely removed. Many features may not be available after using this. These can be availed after restoring that app.
+## Warning:
+Light Debloat: Disables Samsung account sign-in and related services. Do not use if you intend to sign in to your Samsung account. Choose the Basic script instead.
+Heavy Debloat: Removes most safely removable apps and hence many features may be inaccessible. You can restore these features by reinstalling the corresponding apps.
 
-## Change these Settings:
-1. Adaptive Battery: Disabled
-2. Location Services - Wifi Scanning: Disabled
-3. Background Check: Disabled
-4. Go to Settings, Apps. Enable "Show system apps" then look for each of these:
-"OneUI Home", "(Your Keyboard)", "Android System", "System UI", & all the "Gesture" apps. Under app info, Battery, set to Unrestricted
-5. Turn off Scene Optimizer
-6. Set battery usage to "Unrestricted" for "com.samsung.android.biometrics.app.setting" to fix any physical fingerprint bugs.
+## Additional Settings and Optimizations:
+Following the debloat script, you can further optimize your device by adjusting these settings:
 
-## How to restore an app:
+Disable Adaptive Battery: This feature learns your app usage patterns and restricts background activity for less frequently used apps. Disabling it may improve performance for some apps but could impact battery life.
+Disable Location Services - Wi-Fi Scanning: This feature uses Wi-Fi to improve location accuracy. Disabling it can save battery but may affect location-based services.
+Disable Background Check: This feature automatically checks for updates for system apps. Disabling it saves battery but may delay updates.
 
-To restore any app just run the following command:
+## Unrestricted Battery Usage for System Apps:
+Open Settings and navigate to Apps.
+Enable Show System Apps.
+Locate the following apps: One UI Home, your keyboard app, Android System, System UI, and all Gesture apps.
+Tap each app and go to Battery.
+Set the battery usage to Unrestricted.
+
+## Restoring Removed Apps:
+To restore an app you've removed, use the following command via ADB:
 ~~~
-adb shell cmd package install-existing <name of package>
+adb shell cmd package install-existing <package name>
 ~~~
 
-Example- 
+Example:
 ~~~
 adb shell cmd package install-existing com.sec.android.app.samsungapps
 ~~~
+(Replace <package name> with the actual package name of the desired app.)
 
-## How to revert to stock condition:
-
-To restore your phone to stock condition (with all apps installed), run script from revert folder.
+## Reverting to Stock Condition:
+To restore your phone to its original state with all default apps installed, run the script located in the "revert" folder.
 
 ## Note:
-Open an issue here or connect me over Telegram if you need help! Mention your device and firmware version for better help.
+If you encounter any difficulties, feel free to open an issue or contact me on Telegram. Please mention your device model and firmware version for quicker assistance.
 
 ## Visible System Apps (OneUI Core 4.1 - INS Firmware on Samsung M21)
 <img src="images/1.jpg" width="200"/>  <img src="images/2.jpg" width="200"/>
