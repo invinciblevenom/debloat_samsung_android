@@ -1,4 +1,4 @@
-# OneUI Debloat Script
+# OneUI 2.5 to 6.1 Debloat Script
 
 ## Update
 The active development has been suspended till the end of this year!
