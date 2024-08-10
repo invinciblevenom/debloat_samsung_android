@@ -12,8 +12,8 @@ Download the latest release, extract the ZIP file, and run the script from the "
 - Heavy: Removes almost all removable apps for maximum system optimization. Be aware that many features might become unavailable.
 
 ## Warning:
-- Light Debloat: Disables Samsung account sign-in and related services. Do not use if you intend to sign in to your Samsung account. Choose the Basic script instead.
-- Heavy Debloat: Removes most safely removable apps and hence many features may be inaccessible. You can restore these features by reinstalling the corresponding apps.
+- Light Debloat: Disables Samsung account sign-in and related services (Galaxy AI Features won't be available). Do not use if you intend to sign in to your Samsung account. Choose the Basic script instead.
+- Heavy Debloat: Removes most safely removable apps and hence many features may be inaccessible (Galaxy AI Features won't be available). You can restore these features by reinstalling the corresponding apps using revert script.
 
 ## Additional Settings and Optimizations:
 Following the debloat script, you can further optimize your device by adjusting these settings:
