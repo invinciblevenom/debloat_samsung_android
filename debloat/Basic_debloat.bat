@@ -1,6 +1,4 @@
 echo Basic Debloat Script by invinciblevenom
-echo =============================================
-echo Checking connected devices
 adb devices
 adb shell pm uninstall --user 0 android.autoinstalls.config.samsung
 adb shell pm uninstall --user 0 com.android.bips
@@ -102,9 +100,7 @@ adb shell pm uninstall --user 0 com.sec.android.widgetapp.webmanual
 adb shell pm uninstall --user 0 com.sec.hearingadjust
 adb shell pm uninstall --user 0 com.sec.location.nsflp2
 adb shell pm uninstall --user 0 com.sec.spp.push
-adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                           #Snapchat Camera Kit
-echo Completed Action
+adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                         
 echo Killing adb server
 adb kill-server
-echo Press any key to exit terminal.
 pause 
