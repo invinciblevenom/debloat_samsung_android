@@ -1,4 +1,4 @@
-echo Basic Debloat Script by invinciblevenom
+echo Basic Debloat Script by invinciblevenom@github
 adb devices
 adb shell pm uninstall --user 0 android.autoinstalls.config.samsung
 adb shell pm uninstall --user 0 com.android.bips
