@@ -1,7 +1,7 @@
-# OneUI 2.5 to 6.1 Debloat Script
+<h1 align="center"> OneUI 2.5 to 6.1 Debloat Script </h1>
 
-## Update
-The active development has been suspended till the end of this year!
+<h2> Support my work: </h2>
+If you've liked my work and it has hlped you, consider supporting my work through GitHub Sponsors. Users based in India can connected me over Telegram and support through UPI.
 
 ## How to use Script: 
 Download the latest release, extract the ZIP file, and run the script from the "debloat" folder. To run the script, connect your phone to your PC using ADB. For best results, use the script during the initial device setup or after a factory reset to avoid losing personal data.
