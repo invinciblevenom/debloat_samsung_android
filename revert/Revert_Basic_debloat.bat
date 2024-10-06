@@ -2,6 +2,11 @@ echo Revert for Basic Debloat Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
+
+pause ALLOW ADB PERMISSIONS IN DEVICE...
+
+echo Starting debloat Revert...
+
 adb shell cmd package install-existing android.autoinstalls.config.samsung
 adb shell cmd package install-existing com.android.bips
 adb shell cmd package install-existing com.android.bookmarkprovider

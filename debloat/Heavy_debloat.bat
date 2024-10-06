@@ -1,5 +1,10 @@
 echo Heavy Debloat Script by invinciblevenom
 adb devices
+
+pause ALLOW ADB PERMISSIONS IN DEVICE...
+
+echo Starting debloat...
+
 #adb shell pm uninstall --user 0 com.samsung.android.mdx
 #adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
 #adb shell pm uninstall --user 0 com.samsung.android.smartmirroring                     #Smart View
@@ -326,4 +331,6 @@ adb shell cmd package install-existing com.sec.android.soagent
 adb shell cmd package install-existing com.sec.android.systemupdate 
 echo Killing adb server
 adb kill-server
+
+echo Debloat process finished.
 pause 

@@ -2,6 +2,9 @@ echo Revert for Light Debloat Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
+pause ALLOW ADB PERMISSIONS IN DEVICE...
+
+echo Starting debloat Revert...
 #adb shell cmd package install-existing com.android.emergency
 #adb shell cmd package install-existing com.google.android.gms.location.history
 #adb shell cmd package install-existing com.samsung.android.mdx.kit

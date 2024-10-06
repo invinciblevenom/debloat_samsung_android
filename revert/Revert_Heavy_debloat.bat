@@ -2,6 +2,10 @@ echo Revert for Heavy Debloat Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
+
+pause ALLOW ADB PERMISSIONS IN DEVICE...
+
+echo Starting debloat Revert...
 #adb shell cmd package install-existing com.samsung.android.mdx
 #adb shell cmd package install-existing com.samsung.android.mdx.kit
 #adb shell cmd package install-existing com.samsung.android.smartmirroring                     #Smart View

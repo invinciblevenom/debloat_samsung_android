@@ -1,5 +1,10 @@
 echo Basic Debloat Script by invinciblevenom@github
 adb devices
+
+pause ALLOW ADB PERMISSIONS IN DEVICE...
+
+echo Starting debloat...
+
 adb shell pm uninstall --user 0 android.autoinstalls.config.samsung
 adb shell pm uninstall --user 0 com.android.bips
 adb shell pm uninstall --user 0 com.android.bookmarkprovider
@@ -103,4 +108,5 @@ adb shell pm uninstall --user 0 com.sec.spp.push
 adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                         
 echo Killing adb server
 adb kill-server
+echo Debloat process finished.
 pause 

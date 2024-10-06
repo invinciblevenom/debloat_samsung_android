@@ -1,5 +1,10 @@
 echo Light Debloat Script by invinciblevenom@github
 adb devices
+
+pause ALLOW ADB PERMISSIONS IN DEVICE...
+
+echo Starting debloat...
+
 #adb shell pm uninstall --user 0 com.android.emergency
 #adb shell pm uninstall --user 0 com.google.android.gms.location.history
 #adb shell pm uninstall --user 0 com.samsung.android.mdx.kit
@@ -163,4 +168,5 @@ adb shell pm uninstall --user 0 com.sec.spp.push
 adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                           
 echo Killing adb server
 adb kill-server
+echo Debloat process finished.
 pause 

@@ -2,6 +2,9 @@ echo Tweaks Script by invinciblevenom
 echo =============================================
 echo Checking connected devices
 adb devices
+
+pause ALLOW ADB PERMISSIONS IN DEVICE...
+
 echo Boost Battery
 adb shell settings put global adaptive_battery_management_enabled 0
 adb shell settings put global cached_apps_freezer enabled
