@@ -1,4 +1,4 @@
-echo Revert for Light Debloat Script by invinciblevenom
+echo Revert for Light Debloat Script by invinciblevenom@github
 echo =============================================
 echo Checking connected devices
 adb devices
@@ -72,12 +72,14 @@ adb shell cmd package install-existing com.samsung.android.app.cocktailbarservic
 adb shell cmd package install-existing com.samsung.android.app.galaxyfinder
 adb shell cmd package install-existing com.samsung.android.app.notes.addons
 adb shell cmd package install-existing com.samsung.android.app.omcagent
+adb shell cmd package install-existing com.samsung.android.app.parentalcare
 adb shell cmd package install-existing com.samsung.android.app.reminder
 adb shell cmd package install-existing com.samsung.android.app.routines
 adb shell cmd package install-existing com.samsung.android.app.sharelive
 adb shell cmd package install-existing com.samsung.android.app.taskedge
 adb shell cmd package install-existing com.samsung.android.app.updatecenter
 adb shell cmd package install-existing com.samsung.android.app.watchmanagerstub
+adb shell cmd package install-existing com.samsung.android.appseparation
 adb shell cmd package install-existing com.samsung.android.ardrawing
 adb shell cmd package install-existing com.samsung.android.aremoji
 adb shell cmd package install-existing com.samsung.android.aremojieditor
@@ -91,6 +93,8 @@ adb shell cmd package install-existing com.samsung.android.easysetup
 adb shell cmd package install-existing com.samsung.android.fmm
 adb shell cmd package install-existing com.samsung.android.game.gamehome
 adb shell cmd package install-existing com.samsung.android.game.gametools
+adb shell cmd package install-existing com.samsung.android.homemode
+adb shell cmd package install-existing com.samsung.android.intellivoiceservice
 adb shell cmd package install-existing com.samsung.android.ipsgeofence
 adb shell cmd package install-existing com.samsung.android.kidsinstaller
 adb shell cmd package install-existing com.samsung.android.knox.analytics.uploader
@@ -137,6 +141,13 @@ adb shell cmd package install-existing com.samsung.klmsagent
 adb shell cmd package install-existing com.samsung.memorysaver
 adb shell cmd package install-existing com.samsung.sec.android.application.csc
 adb shell cmd package install-existing com.samsung.SMT
+adb shell cmd package install-existing com.samsung.SMT.lang_de_de_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_en_gb_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_en_us_l03
+adb shell cmd package install-existing com.samsung.SMT.lang_es_es_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_fr_fr_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_it_it_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_ru_ru_f00
 adb shell cmd package install-existing com.samsung.storyservice
 adb shell cmd package install-existing com.sec.android.app.billing
 adb shell cmd package install-existing com.sec.android.app.chromecustomizations

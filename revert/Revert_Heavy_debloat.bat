@@ -1,4 +1,4 @@
-echo Revert for Heavy Debloat Script by invinciblevenom
+echo Revert for Heavy Debloat Script by invinciblevenom@github
 echo =============================================
 echo Checking connected devices
 adb devices
@@ -26,8 +26,8 @@ adb shell cmd package install-existing com.android.egg
 adb shell cmd package install-existing com.android.emergency
 adb shell cmd package install-existing com.android.hotspot2                                    #OsuLogin
 adb shell cmd package install-existing com.android.hotwordenrollment.okgoogle
-adb shell cmd package install-existing com.android.hotwordenrollment.xgoogle
 adb shell cmd package install-existing com.android.hotwordenrollment.tgoogle				
+adb shell cmd package install-existing com.android.hotwordenrollment.xgoogle
 adb shell cmd package install-existing com.android.htmlviewer                                  
 adb shell cmd package install-existing com.android.internal.display.cutout.emulation.corner    
 adb shell cmd package install-existing com.android.internal.display.cutout.emulation.double    
@@ -145,9 +145,8 @@ adb shell cmd package install-existing com.samsung.android.app.clipboardedge
 adb shell cmd package install-existing com.samsung.android.app.galaxyfinder                    #Samsung Finder app
 adb shell cmd package install-existing com.samsung.android.app.notes.addons
 adb shell cmd package install-existing com.samsung.android.app.omcagent
+adb shell cmd package install-existing com.samsung.android.app.parentalcare
 adb shell cmd package install-existing com.samsung.android.app.reminder
-adb shell cmd package install-existing com.samsung.android.app.reminder
-adb shell cmd package install-existing com.samsung.android.app.routines
 adb shell cmd package install-existing com.samsung.android.app.routines
 adb shell cmd package install-existing com.samsung.android.app.sbrowseredge                    #Samsung Internet's edge panel
 adb shell cmd package install-existing com.samsung.android.app.settings.bixby                  #Bixby app
@@ -159,6 +158,7 @@ adb shell cmd package install-existing com.samsung.android.app.spage            
 adb shell cmd package install-existing com.samsung.android.app.taskedge
 adb shell cmd package install-existing com.samsung.android.app.tips                            #Tips app
 adb shell cmd package install-existing com.samsung.android.app.watchmanagerstub
+adb shell cmd package install-existing com.samsung.android.appseparation
 adb shell cmd package install-existing com.samsung.android.ardrawing                           #AR Drawing
 adb shell cmd package install-existing com.samsung.android.aremoji                             #AR emoji feature of camera
 adb shell cmd package install-existing com.samsung.android.aremojieditor
@@ -188,7 +188,9 @@ adb shell cmd package install-existing com.samsung.android.game.gamehome        
 adb shell cmd package install-existing com.samsung.android.game.gametools                      #Game tools
 adb shell cmd package install-existing com.samsung.android.game.gos
 adb shell cmd package install-existing com.samsung.android.hdmapp
+adb shell cmd package install-existing com.samsung.android.homemode
 adb shell cmd package install-existing com.samsung.android.icecone                             #Keyboard Content Handler
+adb shell cmd package install-existing com.samsung.android.intellivoiceservice
 adb shell cmd package install-existing com.samsung.android.ipsgeofence                         #Samsung Visit-in
 adb shell cmd package install-existing com.samsung.android.kidsinstaller                       #Kids installer
 adb shell cmd package install-existing com.samsung.android.knox.analytics.uploader
@@ -261,6 +263,13 @@ adb shell cmd package install-existing com.samsung.sait.sohservice
 adb shell cmd package install-existing com.samsung.sec.android.application.csc
 adb shell cmd package install-existing com.samsung.sec.android.teegris.tui_service             #Trusted User Interface 
 adb shell cmd package install-existing com.samsung.SMT                                         #Text to speech engine of Samsung
+adb shell cmd package install-existing com.samsung.SMT.lang_de_de_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_en_gb_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_en_us_l03
+adb shell cmd package install-existing com.samsung.SMT.lang_es_es_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_fr_fr_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_it_it_f00
+adb shell cmd package install-existing com.samsung.SMT.lang_ru_ru_f00
 adb shell cmd package install-existing com.samsung.sree
 adb shell cmd package install-existing com.samsung.storyservice                                #StoryService in Gallery
 adb shell cmd package install-existing com.samsung.systemui.bixby2                             #SystemUI bixby2
@@ -314,15 +323,15 @@ adb shell cmd package install-existing com.sec.mldapchecker                     
 adb shell cmd package install-existing com.sec.spp.push                                        #Samsung Push Service
 adb shell cmd package install-existing com.sec.sve                                             #Secondary Video Engine Service
 adb shell cmd package install-existing com.skms.android.agent
-adb shell cmd package install-existing com.snapchat.android
 adb shell cmd package install-existing com.snap.camerakit.plugin.v1                            #Snapchat camera kit
+adb shell cmd package install-existing com.snapchat.android
 adb shell cmd package install-existing com.yandex.browser
 adb shell cmd package install-existing de.axelspringer.yana.zeropage
 adb shell cmd package install-existing flipboard.boxer.app                                     #Flipboard
 adb shell cmd package install-existing in.amazon.mShop.android.shopping
 adb shell cmd package install-existing ru.yandex.disk
 adb shell cmd package install-existing ru.yandex.searchplugin
-adb shell cmd package install-existing ru.yandex.yandexmaps 
+adb shell cmd package install-existing ru.yandex.yandexmaps
 adb shell cmd package install-existing com.sec.android.soagent
 adb shell cmd package install-existing com.sec.android.systemupdate 
 echo All changes have been reverted.

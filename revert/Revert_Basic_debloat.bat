@@ -1,4 +1,4 @@
-echo Revert for Basic Debloat Script by invinciblevenom
+echo Revert for Basic Debloat Script by invinciblevenom@github
 echo =============================================
 echo Checking connected devices
 adb devices
