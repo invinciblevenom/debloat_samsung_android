@@ -1,4 +1,4 @@
-echo Tweaks Script by invinciblevenom
+echo Tweaks Script by invinciblevenom@github
 echo =============================================
 echo Checking connected devices
 adb devices
@@ -6,6 +6,7 @@ echo Boost Battery
 adb shell settings put global adaptive_battery_management_enabled 0
 adb shell settings put global cached_apps_freezer enabled
 adb shell settings put global protect_battery 1
+adb shell settings put secure send_action_app_error 0
 
 echo Location
 adb shell settings put global assisted_gps_enabled 1
