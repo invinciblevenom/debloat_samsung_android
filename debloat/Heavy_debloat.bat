@@ -24,8 +24,8 @@ adb shell pm uninstall --user 0 com.android.egg
 adb shell pm uninstall --user 0 com.android.emergency
 adb shell pm uninstall --user 0 com.android.hotspot2                                    #OsuLogin
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
-adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.tgoogle				
+adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
 adb shell pm uninstall --user 0 com.android.htmlviewer                                  
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.double    
@@ -137,13 +137,13 @@ adb shell pm uninstall --user 0 com.samsung.android.accessibility.talkback
 adb shell pm uninstall --user 0 com.samsung.android.aircommandmanager
 adb shell pm uninstall --user 0 com.samsung.android.alive.service                       #Device Customisation Service
 adb shell pm uninstall --user 0 com.samsung.android.allshare.service.mediashare         #Quick share
-adb shell pm uninstall --user 0 com.samsung.android.appseparation                       #Samsung Separated Apps
 adb shell pm uninstall --user 0 com.samsung.android.app.appsedge                        #Breaks Split Screen
 adb shell pm uninstall --user 0 com.samsung.android.app.camera.sticker.facearavatar.preload   #Face avatar
 adb shell pm uninstall --user 0 com.samsung.android.app.clipboardedge
 adb shell pm uninstall --user 0 com.samsung.android.app.galaxyfinder                    #Samsung Finder app
 adb shell pm uninstall --user 0 com.samsung.android.app.notes.addons
 adb shell pm uninstall --user 0 com.samsung.android.app.omcagent
+adb shell pm uninstall --user 0 com.samsung.android.app.parentalcare
 adb shell pm uninstall --user 0 com.samsung.android.app.reminder
 adb shell pm uninstall --user 0 com.samsung.android.app.reminder
 adb shell pm uninstall --user 0 com.samsung.android.app.routines
@@ -158,6 +158,7 @@ adb shell pm uninstall --user 0 com.samsung.android.app.spage                   
 adb shell pm uninstall --user 0 com.samsung.android.app.taskedge
 adb shell pm uninstall --user 0 com.samsung.android.app.tips                            #Tips app
 adb shell pm uninstall --user 0 com.samsung.android.app.watchmanagerstub
+adb shell pm uninstall --user 0 com.samsung.android.appseparation                       #Samsung Separated Apps
 adb shell pm uninstall --user 0 com.samsung.android.ardrawing                           #AR Drawing
 adb shell pm uninstall --user 0 com.samsung.android.aremoji                             #AR emoji feature of camera
 adb shell pm uninstall --user 0 com.samsung.android.aremojieditor
@@ -187,7 +188,9 @@ adb shell pm uninstall --user 0 com.samsung.android.game.gamehome               
 adb shell pm uninstall --user 0 com.samsung.android.game.gametools                      #Game tools
 adb shell pm uninstall --user 0 com.samsung.android.game.gos
 adb shell pm uninstall --user 0 com.samsung.android.hdmapp
+adb shell pm uninstall --user 0 com.samsung.android.homemode
 adb shell pm uninstall --user 0 com.samsung.android.icecone                             #Keyboard Content Handler
+adb shell pm uninstall --user 0 com.samsung.android.intellivoiceservice
 adb shell pm uninstall --user 0 com.samsung.android.ipsgeofence                         #Samsung Visit-in
 adb shell pm uninstall --user 0 com.samsung.android.kidsinstaller                       #Kids installer
 adb shell pm uninstall --user 0 com.samsung.android.knox.analytics.uploader
@@ -260,6 +263,13 @@ adb shell pm uninstall --user 0 com.samsung.sait.sohservice
 adb shell pm uninstall --user 0 com.samsung.sec.android.application.csc
 adb shell pm uninstall --user 0 com.samsung.sec.android.teegris.tui_service             #Trusted User Interface 
 adb shell pm uninstall --user 0 com.samsung.SMT                                         #Text to speech engine of Samsung
+adb shell pm uninstall --user 0 com.samsung.SMT.lang_de_de_f00
+adb shell pm uninstall --user 0 com.samsung.SMT.lang_en_gb_f00
+adb shell pm uninstall --user 0 com.samsung.SMT.lang_en_us_l03
+adb shell pm uninstall --user 0 com.samsung.SMT.lang_es_es_f00
+adb shell pm uninstall --user 0 com.samsung.SMT.lang_fr_fr_f00
+adb shell pm uninstall --user 0 com.samsung.SMT.lang_it_it_f00
+adb shell pm uninstall --user 0 com.samsung.SMT.lang_ru_ru_f00
 adb shell pm uninstall --user 0 com.samsung.sree
 adb shell pm uninstall --user 0 com.samsung.storyservice                                #StoryService in Gallery
 adb shell pm uninstall --user 0 com.samsung.systemui.bixby2                             #SystemUI bixby2
@@ -313,17 +323,18 @@ adb shell pm uninstall --user 0 com.sec.mldapchecker                            
 adb shell pm uninstall --user 0 com.sec.spp.push                                        #Samsung Push Service
 adb shell pm uninstall --user 0 com.sec.sve                                             #Secondary Video Engine Service
 adb shell pm uninstall --user 0 com.skms.android.agent
-adb shell pm uninstall --user 0 com.snapchat.android
 adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                           #Snapchat Camera Kit
+adb shell pm uninstall --user 0 com.snapchat.android
 adb shell pm uninstall --user 0 com.yandex.browser
 adb shell pm uninstall --user 0 de.axelspringer.yana.zeropage
 adb shell pm uninstall --user 0 flipboard.boxer.app                                     #Flipboard
 adb shell pm uninstall --user 0 in.amazon.mShop.android.shopping
 adb shell pm uninstall --user 0 ru.yandex.disk
 adb shell pm uninstall --user 0 ru.yandex.searchplugin
-adb shell pm uninstall --user 0 ru.yandex.yandexmaps 
+adb shell pm uninstall --user 0 ru.yandex.yandexmaps
 adb shell cmd package install-existing com.sec.android.soagent
 adb shell cmd package install-existing com.sec.android.systemupdate 
 echo Killing adb server
 adb kill-server
-pause 
+echo Press any key to exit terminal.
+pause

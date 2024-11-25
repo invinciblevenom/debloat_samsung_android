@@ -103,4 +103,5 @@ adb shell pm uninstall --user 0 com.sec.spp.push
 adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                         
 echo Killing adb server
 adb kill-server
+echo Press any key to exit terminal.
 pause 
