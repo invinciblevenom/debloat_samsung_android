@@ -121,7 +121,6 @@ adb shell cmd package install-existing com.google.ar.core                       
 adb shell cmd package install-existing com.google.audio.hearing.visualization.accessibility.scribe  #Live Transcribe
 adb shell cmd package install-existing com.hiya.star                                           #Spam Filter App
 adb shell cmd package install-existing com.knox.vpn.proxyhandler
-adb shell cmd package install-existing com.knox.vpn.proxyhandler
 adb shell cmd package install-existing com.microsoft.appmanager
 adb shell cmd package install-existing com.microsoft.appmanager                                #Your phone Companion
 adb shell cmd package install-existing com.microsoft.office.officehubrow
@@ -248,7 +247,6 @@ adb shell cmd package install-existing com.samsung.android.visualars
 adb shell cmd package install-existing com.samsung.android.voc
 adb shell cmd package install-existing com.samsung.app.highlightplayer                         #Create Movie
 adb shell cmd package install-existing com.samsung.discover                                    #Discover App
-adb shell cmd package install-existing com.samsung.ecomm.global.in
 adb shell cmd package install-existing com.samsung.ecomm.global.in
 adb shell cmd package install-existing com.samsung.faceservice
 adb shell cmd package install-existing com.samsung.gpuwatchapp                                 #GPUWatch in Developer Settings

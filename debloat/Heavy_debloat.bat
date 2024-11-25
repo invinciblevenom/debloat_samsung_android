@@ -119,7 +119,6 @@ adb shell pm uninstall --user 0 com.google.ar.core                              
 adb shell pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe  #Live Transcribe
 adb shell pm uninstall --user 0 com.hiya.star                                           #Spam Filter App
 adb shell pm uninstall --user 0 com.knox.vpn.proxyhandler
-adb shell pm uninstall --user 0 com.knox.vpn.proxyhandler
 adb shell pm uninstall --user 0 com.microsoft.appmanager
 adb shell pm uninstall --user 0 com.microsoft.appmanager                                #Your phone Companion
 adb shell pm uninstall --user 0 com.microsoft.office.officehubrow
@@ -145,8 +144,6 @@ adb shell pm uninstall --user 0 com.samsung.android.app.notes.addons
 adb shell pm uninstall --user 0 com.samsung.android.app.omcagent
 adb shell pm uninstall --user 0 com.samsung.android.app.parentalcare
 adb shell pm uninstall --user 0 com.samsung.android.app.reminder
-adb shell pm uninstall --user 0 com.samsung.android.app.reminder
-adb shell pm uninstall --user 0 com.samsung.android.app.routines
 adb shell pm uninstall --user 0 com.samsung.android.app.routines
 adb shell pm uninstall --user 0 com.samsung.android.app.sbrowseredge                    #Samsung Internet's edge panel
 adb shell pm uninstall --user 0 com.samsung.android.app.settings.bixby                  #Bixby app
@@ -248,7 +245,6 @@ adb shell pm uninstall --user 0 com.samsung.android.visualars
 adb shell pm uninstall --user 0 com.samsung.android.voc
 adb shell pm uninstall --user 0 com.samsung.app.highlightplayer                         #Create Movie
 adb shell pm uninstall --user 0 com.samsung.discover                                    #Discover App
-adb shell pm uninstall --user 0 com.samsung.ecomm.global.in
 adb shell pm uninstall --user 0 com.samsung.ecomm.global.in
 adb shell pm uninstall --user 0 com.samsung.faceservice
 adb shell pm uninstall --user 0 com.samsung.gpuwatchapp                                 #GPUWatch in Developer Settings
