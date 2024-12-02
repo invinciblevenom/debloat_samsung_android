@@ -21,12 +21,12 @@ adb shell pm uninstall --user 0 com.android.dreams.basic                        
 adb shell pm uninstall --user 0 com.android.dreams.phototable
 adb shell pm uninstall --user 0 com.android.dynsystem
 adb shell pm uninstall --user 0 com.android.egg                                        
-adb shell pm uninstall --user 0 com.android.emergency
+rem adb shell pm uninstall --user 0 com.android.emergency                               # needed, emergency features are still needed features.
 adb shell pm uninstall --user 0 com.android.hotspot2                                    #OsuLogin
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.tgoogle				
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
-adb shell pm uninstall --user 0 com.android.htmlviewer                                  
+rem adb shell pm uninstall --user 0 com.android.htmlviewer                              # a very lightweight yet needed app to view html or txt files in device storage, doesn't run in the background btw
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.corner    
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.double    
 adb shell pm uninstall --user 0 com.android.internal.display.cutout.emulation.hole
@@ -109,7 +109,7 @@ adb shell pm uninstall --user 0 com.google.android.healthconnect.controller
 adb shell pm uninstall --user 0 com.google.android.onetimeinitializer
 adb shell pm uninstall --user 0 com.google.android.overlay.modules.ext.services   
 adb shell pm uninstall --user 0 com.google.android.partnersetup
-adb shell pm uninstall --user 0 com.google.android.printservice.recommendation
+rem adb shell pm uninstall --user 0 com.google.android.printservice.recommendation      # a must have for those using their phones to print using their wireless printers
 adb shell pm uninstall --user 0 com.google.android.projection.gearhead                  #Android Auto
 adb shell pm uninstall --user 0 com.google.android.setupwizard
 adb shell pm uninstall --user 0 com.google.android.tts                                  #Google Text to Speech
@@ -119,20 +119,19 @@ adb shell pm uninstall --user 0 com.google.ar.core                              
 adb shell pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe  #Live Transcribe
 adb shell pm uninstall --user 0 com.hiya.star                                           #Spam Filter App
 adb shell pm uninstall --user 0 com.knox.vpn.proxyhandler
-adb shell pm uninstall --user 0 com.microsoft.appmanager
 adb shell pm uninstall --user 0 com.microsoft.appmanager                                #Your phone Companion
 adb shell pm uninstall --user 0 com.microsoft.office.officehubrow
 adb shell pm uninstall --user 0 com.microsoft.office.outlook
 adb shell pm uninstall --user 0 com.microsoft.skydrive                                  #Onedrive
-adb shell pm uninstall --user 0 com.monotype.android.font.foundation
-adb shell pm uninstall --user 0 com.monotype.android.font.samsungone                    #Samsung One Font
+rem adb shell pm uninstall --user 0 com.monotype.android.font.foundation               # allows for changing display fonts via display settings, no need to disable it, consumes a few KBs of RAM and is a necessity.
+rem adb shell pm uninstall --user 0 com.monotype.android.font.samsungone                #Samsung One Font it's fine just to keep it, doesn't run in the background btw even if applied via font settings
 adb shell pm uninstall --user 0 com.mygalaxy                                            #Galaxy App
 adb shell pm uninstall --user 0 com.netflix.mediaclient                                 #Netflix App
 adb shell pm uninstall --user 0 com.netflix.partner.activation                          #Netflix Activation
 adb shell pm uninstall --user 0 com.opera.max.oem                                       #Samsung VPN and Date Saver
 adb shell pm uninstall --user 0 com.osp.app.signin                                      #Samsung Account
 adb shell pm uninstall --user 0 com.samsung.aasaservice                                 #AASA service
-adb shell pm uninstall --user 0 com.samsung.android.accessibility.talkback
+rem adb shell pm uninstall --user 0 com.samsung.android.accessibility.talkback          # TalkBack is an accessibility feature, it doesn't run in the background unless it is enabled via accessibility settings.
 adb shell pm uninstall --user 0 com.samsung.android.aircommandmanager
 adb shell pm uninstall --user 0 com.samsung.android.alive.service                       #Device Customisation Service
 adb shell pm uninstall --user 0 com.samsung.android.allshare.service.mediashare         #Quick share
@@ -150,7 +149,7 @@ adb shell pm uninstall --user 0 com.samsung.android.app.settings.bixby          
 adb shell pm uninstall --user 0 com.samsung.android.app.sharelive                       #Quick Share
 adb shell pm uninstall --user 0 com.samsung.android.app.simplesharing                   #Link sharing
 adb shell pm uninstall --user 0 com.samsung.android.app.social                          #Samsung Social
-adb shell pm uninstall --user 0 com.samsung.android.app.soundpicker                     #Sound Picker
+rem adb shell pm uninstall --user 0 com.samsung.android.app.soundpicker                 #Sound Picker - this is the sound picker you would see whenever you try to change your ringtone for example, NO need to delete it.
 adb shell pm uninstall --user 0 com.samsung.android.app.spage                           #Bixby stuff
 adb shell pm uninstall --user 0 com.samsung.android.app.taskedge
 adb shell pm uninstall --user 0 com.samsung.android.app.tips                            #Tips app
@@ -158,7 +157,6 @@ adb shell pm uninstall --user 0 com.samsung.android.app.watchmanagerstub
 adb shell pm uninstall --user 0 com.samsung.android.appseparation                       #Samsung Separated Apps
 adb shell pm uninstall --user 0 com.samsung.android.ardrawing                           #AR Drawing
 adb shell pm uninstall --user 0 com.samsung.android.aremoji                             #AR emoji feature of camera
-adb shell pm uninstall --user 0 com.samsung.android.aremojieditor
 adb shell pm uninstall --user 0 com.samsung.android.aremojieditor                       #AR emoji editor
 adb shell pm uninstall --user 0 com.samsung.android.arzone                              #AR Zone
 adb shell pm uninstall --user 0 com.samsung.android.authfw
@@ -225,10 +223,9 @@ adb shell pm uninstall --user 0 com.samsung.android.shortcutbackupservice
 adb shell pm uninstall --user 0 com.samsung.android.sm.devicesecurity                   #McAfee Anti-virus in Device care
 adb shell pm uninstall --user 0 com.samsung.android.sm.policy
 adb shell pm uninstall --user 0 com.samsung.android.smartcallprovider
-adb shell pm uninstall --user 0 com.samsung.android.smartface
+rem adb shell pm uninstall --user 0 com.samsung.android.smartface                       # smartface a service needed for face unlock (biometrics), doesn't send data outside of your device.
 adb shell pm uninstall --user 0 com.samsung.android.smartfitting
 adb shell pm uninstall --user 0 com.samsung.android.smartswitchassistant     
-adb shell pm uninstall --user 0 com.samsung.android.spayfw
 adb shell pm uninstall --user 0 com.samsung.android.spayfw                              #Samsung Payment Firmware
 adb shell pm uninstall --user 0 com.samsung.android.spaymini                            #Samasung Pay Mini
 adb shell pm uninstall --user 0 com.samsung.android.stickercenter                       #Sticker centre
@@ -237,16 +234,16 @@ adb shell pm uninstall --user 0 com.samsung.android.svoiceime                   
 adb shell pm uninstall --user 0 com.samsung.android.tadownloader                        #TA Downloader
 adb shell pm uninstall --user 0 com.samsung.android.tapack.authfw
 adb shell pm uninstall --user 0 com.samsung.android.themecenter
-adb shell pm uninstall --user 0 com.samsung.android.themestore
+adb shell pm uninstall --user 0 com.samsung.android.themestore                          # Galaxy Themes May not exist in modern One ui versions
 adb shell pm uninstall --user 0 com.samsung.android.uds                                 #Ultra Data Saving mode
 adb shell pm uninstall --user 0 com.samsung.android.visionarapps                        #Bixby Vision
 adb shell pm uninstall --user 0 com.samsung.android.visionintelligence                  #Bixby Vision 
 adb shell pm uninstall --user 0 com.samsung.android.visualars
-adb shell pm uninstall --user 0 com.samsung.android.voc
+adb shell pm uninstall --user 0 com.samsung.android.voc                                 # The samsung members app
 adb shell pm uninstall --user 0 com.samsung.app.highlightplayer                         #Create Movie
 adb shell pm uninstall --user 0 com.samsung.discover                                    #Discover App
 adb shell pm uninstall --user 0 com.samsung.ecomm.global.in
-adb shell pm uninstall --user 0 com.samsung.faceservice
+rem adb shell pm uninstall --user 0 com.samsung.faceservice                             # FaceService - debloating doesn't mean losing necessary or needed functionality.
 adb shell pm uninstall --user 0 com.samsung.gpuwatchapp                                 #GPUWatch in Developer Settings
 adb shell pm uninstall --user 0 com.samsung.ipservice
 adb shell pm uninstall --user 0 com.samsung.klmsagent                    
@@ -276,7 +273,7 @@ adb shell pm uninstall --user 0 com.sec.android.app.billing
 adb shell pm uninstall --user 0 com.sec.android.app.chromecustomizations
 adb shell pm uninstall --user 0 com.sec.android.app.DataCreate
 adb shell pm uninstall --user 0 com.sec.android.app.factorykeystring                    #Device Keystring
-adb shell pm uninstall --user 0 com.sec.android.app.fm
+rem adb shell pm uninstall --user 0 com.sec.android.app.fm                              # no need to remove radio fm app it does not run in the background at all unless users launches it.
 adb shell pm uninstall --user 0 com.sec.android.app.hwmoduletest                        #Test *#0*#
 adb shell pm uninstall --user 0 com.sec.android.app.magnifier                           #Magnifier
 adb shell pm uninstall --user 0 com.sec.android.app.parser
@@ -295,14 +292,14 @@ adb shell pm uninstall --user 0 com.sec.android.autodoodle.service              
 adb shell pm uninstall --user 0 com.sec.android.daemonapp
 adb shell pm uninstall --user 0 com.sec.android.diagmonagent                            #Diagnoses problems with phones
 adb shell pm uninstall --user 0 com.sec.android.easyMover
-adb shell pm uninstall --user 0 com.sec.android.easyMover.Agent                         #Smart Switch agent
-adb shell pm uninstall --user 0 com.sec.android.easyonehand                             #One hand Mode
-adb shell pm uninstall --user 0 com.sec.android.emergencylauncher
-adb shell pm uninstall --user 0 com.sec.android.emergencymode.service
+rem adb shell pm uninstall --user 0 com.sec.android.easyMover.Agent                      #Smart Switch agent - better not to remove it because there will be sometime the user will need to install smartswitch again
+rem adb shell pm uninstall --user 0 com.sec.android.easyonehand                             #One hand Mode - better not to remove it because it is needed by most people
+rem adb shell pm uninstall --user 0 com.sec.android.emergencylauncher # emergency launcher is needed for maximum power saving mode
+rem adb shell pm uninstall --user 0 com.sec.android.emergencymode.service # no need to disable emergency mode svc as it is not running all the time
 adb shell pm uninstall --user 0 com.sec.android.mimage.avatarstickers                   #AR Emoji Stickers
 adb shell pm uninstall --user 0 com.sec.android.preloadinstaller                        #Installs apps automatically
 adb shell pm uninstall --user 0 com.sec.android.provider.badge                          #Badge Provider
-adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode
+rem adb shell pm uninstall --user 0 com.sec.android.provider.emergencymode # it's better to not remove this app.
 adb shell pm uninstall --user 0 com.sec.android.service.health                          #Health service 
 adb shell pm uninstall --user 0 com.sec.android.smartfpsadjuster                        #Smart fps adjuster
 adb shell pm uninstall --user 0 com.sec.android.uibcvirtualsoftkey                      #UIBC Virtual Soft key
@@ -310,14 +307,14 @@ adb shell pm uninstall --user 0 com.sec.android.widgetapp.easymodecontactswidget
 adb shell pm uninstall --user 0 com.sec.android.widgetapp.webmanual                     #Web manual widget
 adb shell pm uninstall --user 0 com.sec.bcservice
 adb shell pm uninstall --user 0 com.sec.enterprise.knox.attestation            
-adb shell pm uninstall --user 0 com.sec.enterprise.knox.cloudmdm.smdms                  #Knox enrollmwnt service
+adb shell pm uninstall --user 0 com.sec.enterprise.knox.cloudmdm.smdms                  #Knox enrollment service
 adb shell pm uninstall --user 0 com.sec.enterprise.mdm.services.simpin                  #Sim pin
 adb shell pm uninstall --user 0 com.sec.hearingadjust                                   #Hearing Adjust
 adb shell pm uninstall --user 0 com.sec.location.nsflp2
 adb shell pm uninstall --user 0 com.sec.mhs.smarttethering                              #Smart Tethering
 adb shell pm uninstall --user 0 com.sec.mldapchecker                                    #MLDAPlog
 adb shell pm uninstall --user 0 com.sec.spp.push                                        #Samsung Push Service
-adb shell pm uninstall --user 0 com.sec.sve                                             #Secondary Video Engine Service
+rem adb shell pm uninstall --user 0 com.sec.sve                                         #Secondary Video Engine Service - better to avoid removing it because it is used to improve performance of video playback
 adb shell pm uninstall --user 0 com.skms.android.agent
 adb shell pm uninstall --user 0 com.snap.camerakit.plugin.v1                           #Snapchat Camera Kit
 adb shell pm uninstall --user 0 com.snapchat.android
