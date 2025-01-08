@@ -52,7 +52,6 @@ if "!sel!" == "3" (
 
 )
 
-adb kill-server
 cls
 echo =======================================================
 echo Universal Samsung Debloater by invinciblevenom
@@ -61,7 +60,7 @@ echo =======================================================
 echo.
 echo Done Debloating/Uninstalling!.....
 pause
-exit
+
 
 :exit
 adb kill-server
