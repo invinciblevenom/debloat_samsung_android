@@ -1,0 +1,328 @@
+#com.samsung.android.mdx
+#com.samsung.android.mdx.kit
+#com.samsung.android.smartmirroring                     #Smart View
+#com.samsung.cmh                                        #Somehow related to Video Calling
+#com.samsung.crane                                      #Video Calling related 
+#com.sec.unifiedwfc                                     #Wifi Calling
+#com.sec.vsim.ericssonnsds.webapp                       #Wifi Calling, VoLTE and Video calling related
+android.autoinstalls.config.samsung
+com.amazon.avod.thirdpartyclient              
+com.android.apps.tag                                    #Tags
+com.android.bips                                        #Default Print service
+com.android.bipscom.wsomacp
+com.android.bookmarkprovider                            #Bookmarks Provider
+com.android.calllogbackup                               
+com.android.chrome
+com.android.cts.ctsshim
+com.android.cts.priv.ctsshim
+com.android.dreams.basic                                #Basic Daydreams
+com.android.dreams.phototable
+com.android.dynsystem
+com.android.egg                                        
+com.android.emergency
+com.android.hotspot2                                    #OsuLogin
+com.android.hotwordenrollment.okgoogle
+com.android.hotwordenrollment.tgoogle				
+com.android.hotwordenrollment.xgoogle
+com.android.htmlviewer                                  
+com.android.internal.display.cutout.emulation.corner    
+com.android.internal.display.cutout.emulation.double    
+com.android.internal.display.cutout.emulation.hole
+com.android.internal.display.cutout.emulation.tall      
+com.android.internal.display.cutout.emulation.waterfall
+com.android.managedprovisioning                         #Work setup
+com.android.printspooler                                #Print Spooler
+com.android.providers.partnerbookmarks
+com.android.providers.userdictionary                    #User dictionary
+com.android.sharedstoragebackup
+com.android.statementservice                            #Intent Filter Verification System
+com.android.stk                                         #SIM 1 Toolkit
+com.android.stk2                                        #SIM 2 Toolkit
+com.android.theme.color.black
+com.android.theme.color.cinnamon
+com.android.theme.color.green
+com.android.theme.color.ocean
+com.android.theme.color.orchid
+com.android.theme.color.purple
+com.android.theme.color.space
+com.android.theme.font.notoserifsource
+com.android.theme.icon.pebble
+com.android.theme.icon.roundedrect
+com.android.theme.icon.taperedrect
+com.android.theme.icon.teardrop
+com.android.theme.icon.vessel
+com.android.theme.icon_pack.circular.android
+com.android.theme.icon_pack.circular.launcher
+com.android.theme.icon_pack.circular.settings
+com.android.theme.icon_pack.circular.systemui
+com.android.theme.icon_pack.circular.themepicker
+com.android.theme.icon_pack.filled.android
+com.android.theme.icon_pack.filled.launcher
+com.android.theme.icon_pack.filled.settings
+com.android.theme.icon_pack.filled.systemui
+com.android.theme.icon_pack.filled.themepicker
+com.android.theme.icon_pack.rounded.android
+com.android.theme.icon_pack.rounded.launcher
+com.android.theme.icon_pack.rounded.settings
+com.android.theme.icon_pack.rounded.systemui
+com.android.theme.icon_pack.rounded.themepicker
+com.android.traceur                                     #System Trace in Developer options
+com.android.wallpaperbackup                             #Backup Wallpaper
+com.aura.oobe.samsung                                   #Samsung Discover
+com.aura.oobe.samsung.gl                                
+com.diotek.sec.lookup.dictionary                        #Dictionary 
+com.dsi.ant.plugins.antplus
+com.dsi.ant.sample.acquirechannels
+com.dsi.ant.server                                      #ANT Hal server
+com.dsi.ant.service.socket
+com.eterno
+com.eterno.shortvideos
+com.facebook.appmanager
+com.facebook.katana                                     #Facebook
+com.facebook.services                                   #Facebook related
+com.facebook.system                                     #Facebook app installer
+com.google.android.apps.accessibility.voiceaccess       #Google Voice Access (voice commands for Google Assistant)
+com.google.android.apps.carrier.carrierwifi				#Google Wifi provisioner
+com.google.android.apps.docs
+com.google.android.apps.gcs								#Google connected services
+com.google.android.apps.maps
+com.google.android.apps.messaging
+com.google.android.apps.photos
+com.google.android.apps.restore
+com.google.android.apps.setupwizard.searchselector
+com.google.android.apps.tachyon                         #Google Duo
+com.google.android.apps.turbo
+com.google.android.apps.wellbeing						#Digital Well being
+com.google.android.apps.youtube.music
+com.google.android.as
+com.google.android.as.oss								#Private Compute Services
+com.google.android.cellbroadcastreceiver
+com.google.android.configupdater
+com.google.android.ext.shared                           #Android Shared Library
+com.google.android.feedback                             #Crash reports feedbacks
+com.google.android.gm                                   #Gmail 
+com.google.android.gms.location.history
+com.google.android.googlequicksearchbox
+com.google.android.healthconnect.controller
+com.google.android.onetimeinitializer
+com.google.android.overlay.modules.ext.services   
+com.google.android.partnersetup
+com.google.android.printservice.recommendation
+com.google.android.projection.gearhead                  #Android Auto
+com.google.android.setupwizard
+com.google.android.tts                                  #Google Text to Speech
+com.google.android.videos                               #Video Player
+com.google.android.youtube
+com.google.ar.core                                      #AR Core
+com.google.audio.hearing.visualization.accessibility.scribe  #Live Transcribe
+com.hiya.star                                           #Spam Filter App
+com.knox.vpn.proxyhandler
+com.microsoft.appmanager
+com.microsoft.appmanager                                #Your phone Companion
+com.microsoft.office.officehubrow
+com.microsoft.office.outlook
+com.microsoft.skydrive                                  #Onedrive
+com.monotype.android.font.foundation
+com.monotype.android.font.samsungone                    #Samsung One Font
+com.mygalaxy                                            #Galaxy App
+com.netflix.mediaclient                                 #Netflix App
+com.netflix.partner.activation                          #Netflix Activation
+com.opera.max.oem                                       #Samsung VPN and Date Saver
+com.osp.app.signin                                      #Samsung Account
+com.samsung.aasaservice                                 #AASA service
+com.samsung.android.accessibility.talkback
+com.samsung.android.aircommandmanager
+com.samsung.android.alive.service                       #Device Customisation Service
+com.samsung.android.allshare.service.mediashare         #Quick share
+com.samsung.android.app.appsedge                        #Breaks Split Screen
+com.samsung.android.app.camera.sticker.facearavatar.preload   #Face avatar
+com.samsung.android.app.clipboardedge
+com.samsung.android.app.galaxyfinder                    #Samsung Finder app
+com.samsung.android.app.notes.addons
+com.samsung.android.app.omcagent
+com.samsung.android.app.parentalcare
+com.samsung.android.app.reminder
+com.samsung.android.app.routines
+com.samsung.android.app.sbrowseredge                    #Samsung Internet's edge panel
+com.samsung.android.app.settings.bixby                  #Bixby app
+com.samsung.android.app.sharelive                       #Quick Share
+com.samsung.android.app.simplesharing                   #Link sharing
+com.samsung.android.app.social                          #Samsung Social
+com.samsung.android.app.soundpicker                     #Sound Picker
+com.samsung.android.app.spage                           #Bixby stuff
+com.samsung.android.app.taskedge
+com.samsung.android.app.tips                            #Tips app
+com.samsung.android.app.watchmanagerstub
+com.samsung.android.appseparation                       #Samsung Separated Apps
+com.samsung.android.ardrawing                           #AR Drawing
+com.samsung.android.aremoji                             #AR emoji feature of camera
+com.samsung.android.aremojieditor
+com.samsung.android.aremojieditor                       #AR emoji editor
+com.samsung.android.arzone                              #AR Zone
+com.samsung.android.authfw
+com.samsung.android.aware.service                       #Quick Share 
+com.samsung.android.bbc.bbcagent                        #Bixby stuff
+com.samsung.android.beaconmanager
+com.samsung.android.bixby.agent                         #Bixby Agent
+com.samsung.android.bixby.agent.dummy                   #Bixby voice stub
+com.samsung.android.bixby.service                       #Bixby service
+com.samsung.android.bixby.wakeup
+com.samsung.android.bixbyvision.framework               #Bixby Vision Frameworks
+com.samsung.android.brightnessbackupservice
+com.samsung.android.cidmanager
+com.samsung.android.cmfa.framework
+com.samsung.android.da.daagent
+com.samsung.android.dqagent
+com.samsung.android.drivelink.stub                      #Car Mode stub
+com.samsung.android.dsms                 
+com.samsung.android.dynamiclock                         #Wallpaper Services
+com.samsung.android.easysetup
+com.samsung.android.emojiupdater                        #Emoji Updater 
+com.samsung.android.fmm
+com.samsung.android.game.gamehome                       #Game home
+com.samsung.android.game.gametools                      #Game tools
+com.samsung.android.game.gos
+com.samsung.android.hdmapp
+com.samsung.android.homemode
+com.samsung.android.icecone                             #Keyboard Content Handler
+com.samsung.android.intellivoiceservice
+com.samsung.android.ipsgeofence                         #Samsung Visit-in
+com.samsung.android.kidsinstaller                       #Kids installer
+com.samsung.android.knox.analytics.uploader
+com.samsung.android.knox.analytics.uploader             #Knox analytics Uploader
+com.samsung.android.knox.attestation                    #Knox related 
+com.samsung.android.knox.containeragent                 #Work Profile
+com.samsung.android.knox.containercore
+com.samsung.android.knox.pushmanager
+com.samsung.android.livestickers                        #DECO PIC
+com.samsung.android.lool								#Device care
+com.samsung.android.mapsagent                           #Personalisation Agent
+com.samsung.android.mateagent                           #Samsung Galaxy Agents
+com.samsung.android.mcfds
+com.samsung.android.mcfserver                           #Samsung Multiple Connectivity
+com.samsung.android.mdecservice                         #Call and text on other devices
+com.samsung.android.mdm                                 #Knox manage
+com.samsung.android.mdx
+com.samsung.android.mfi                                 #Galaxy Widget
+com.samsung.android.mobileservice                       #Samsung Experience
+com.samsung.android.net.wifi.wifiguider                 #WIFI tips
+com.samsung.android.oneconnect
+com.samsung.android.rubin.app
+com.samsung.android.samsungpass
+com.samsung.android.samsungpass                         #Samsung pass
+com.samsung.android.samsungpassautofill
+com.samsung.android.samsungpassautofill                 #Samsung pass autofill service
+com.samsung.android.scloud                              #Samsung cloud
+com.samsung.android.scs
+com.samsung.android.sdk.handwriting                     #Handwriting service 
+com.samsung.android.sdm.config
+com.samsung.android.securitylogagent                    #Security Log agent
+com.samsung.android.service.peoplestripe
+com.samsung.android.setupindiaservicestnc
+com.samsung.android.shortcutbackupservice
+com.samsung.android.sm.devicesecurity                   #McAfee Anti-virus in Device care
+com.samsung.android.sm.policy
+com.samsung.android.smartcallprovider
+com.samsung.android.smartface
+com.samsung.android.smartfitting
+com.samsung.android.smartswitchassistant     
+com.samsung.android.spayfw
+com.samsung.android.spayfw                              #Samsung Payment Firmware
+com.samsung.android.spaymini                            #Samasung Pay Mini
+com.samsung.android.stickercenter                       #Sticker centre
+com.samsung.android.svcagent                            #Samsung mate agent
+com.samsung.android.svoiceime                           #Samsung Voice Input 
+com.samsung.android.tadownloader                        #TA Downloader
+com.samsung.android.tapack.authfw
+com.samsung.android.themecenter
+com.samsung.android.themestore
+com.samsung.android.uds                                 #Ultra Data Saving mode
+com.samsung.android.visionarapps                        #Bixby Vision
+com.samsung.android.visionintelligence                  #Bixby Vision 
+com.samsung.android.visualars
+com.samsung.android.voc
+com.samsung.app.highlightplayer                         #Create Movie
+com.samsung.discover                                    #Discover App
+com.samsung.ecomm.global.in
+com.samsung.faceservice
+com.samsung.gpuwatchapp                                 #GPUWatch in Developer Settings
+com.samsung.ipservice
+com.samsung.klmsagent                    
+com.samsung.knox.keychain                               #Knox Keychain
+com.samsung.memorysaver
+com.samsung.mlp                                         #Related to cmh agent and vision intelligence
+com.samsung.rcs                                         #Rich Communication Services
+com.samsung.safetyinformation                           #Safety information
+com.samsung.sait.sohservice                        
+com.samsung.sec.android.application.csc
+com.samsung.sec.android.teegris.tui_service             #Trusted User Interface 
+com.samsung.SMT                                         #Text to speech engine of Samsung
+com.samsung.SMT.lang_de_de_f00
+com.samsung.SMT.lang_en_gb_f00
+com.samsung.SMT.lang_en_us_l03
+com.samsung.SMT.lang_es_es_f00
+com.samsung.SMT.lang_fr_fr_f00
+com.samsung.SMT.lang_it_it_f00
+com.samsung.SMT.lang_ru_ru_f00
+com.samsung.sree
+com.samsung.storyservice                                #StoryService in Gallery
+com.samsung.systemui.bixby2                             #SystemUI bixby2
+com.samsung.systemui.hidenotch                          #Hide notch overlay 
+com.samsung.systemui.hidenotch.withoutcornerround       #Hide notch option
+com.samsung.ucs.agent.ese                               #eSE UCS Plugin, eSE is for "embedded SEcurity", probably required by Knox
+com.sec.android.app.billing
+com.sec.android.app.chromecustomizations
+com.sec.android.app.DataCreate
+com.sec.android.app.factorykeystring                    #Device Keystring
+com.sec.android.app.fm
+com.sec.android.app.hwmoduletest                        #Test *#0*#
+com.sec.android.app.magnifier                           #Magnifier
+com.sec.android.app.parser
+com.sec.android.app.personalization
+com.sec.android.app.popupcalculator                     #Samsung Calculator-
+com.sec.android.app.ringtoneBR                          #Ringtone Backup
+com.sec.android.app.samsungapps                         #Samsung Store
+com.sec.android.app.sbrowser
+com.sec.android.app.SecSetupWizard
+com.sec.android.app.setupwizardlegalprovider
+com.sec.android.app.soundalive                          #Samsung Alive Sound
+com.sec.android.app.suwscriptplayer                     #SuwScriptPlayer
+com.sec.android.app.vepreload                           #Video editor
+com.sec.android.app.wlantest                            #Wlan check 
+com.sec.android.autodoodle.service                      #Auto doodle 
+com.sec.android.daemonapp
+com.sec.android.diagmonagent                            #Diagnoses problems with phones
+com.sec.android.easyMover
+com.sec.android.easyMover.Agent                         #Smart Switch agent
+com.sec.android.easyonehand                             #One hand Mode
+com.sec.android.emergencylauncher
+com.sec.android.emergencymode.service
+com.sec.android.mimage.avatarstickers                   #AR Emoji Stickers
+com.sec.android.preloadinstaller                        #Installs apps automatically
+com.sec.android.provider.badge                          #Badge Provider
+com.sec.android.provider.emergencymode
+com.sec.android.service.health                          #Health service 
+com.sec.android.smartfpsadjuster                        #Smart fps adjuster
+com.sec.android.uibcvirtualsoftkey                      #UIBC Virtual Soft key
+com.sec.android.widgetapp.easymodecontactswidget        #Favorite Contacts Widget
+com.sec.android.widgetapp.webmanual                     #Web manual widget
+com.sec.bcservice
+com.sec.enterprise.knox.attestation            
+com.sec.enterprise.knox.cloudmdm.smdms                  #Knox enrollmwnt service
+com.sec.enterprise.mdm.services.simpin                  #Sim pin
+com.sec.hearingadjust                                   #Hearing Adjust
+com.sec.location.nsflp2
+com.sec.mhs.smarttethering                              #Smart Tethering
+com.sec.mldapchecker                                    #MLDAPlog
+com.sec.spp.push                                        #Samsung Push Service
+com.sec.sve                                             #Secondary Video Engine Service
+com.skms.android.agent
+com.snap.camerakit.plugin.v1                           #Snapchat Camera Kit
+com.snapchat.android
+com.yandex.browser
+de.axelspringer.yana.zeropage
+flipboard.boxer.app                                     #Flipboard
+in.amazon.mShop.android.shopping
+ru.yandex.disk
+ru.yandex.searchplugin
+ru.yandex.yandexmaps
