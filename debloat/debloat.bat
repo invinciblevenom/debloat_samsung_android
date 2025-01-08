@@ -4,21 +4,31 @@ echo =======================================================
 echo Universal Samsung Debloater by invinciblevenom
 echo Improved Script by KDRN
 echo =======================================================
+
 adb --version
-if %errorlevel% == 0 (
-	echo.
+if %errorlevel% == 1 (
+	cls
+	echo error: adb not found.... 
+	set /p lmao=press any key to exit...
+	exit
+)
+
+	echo =======================================================
 	echo type 1 for BASIC debloat
 	echo type 2 for LIGHT debloat
 	echo type 3 for HEAVY debloat
-	echo type q for exit
-	
-	set /p sel="Select what kind of debloat you want:"
+	echo leave blank to exit
+	echo =======================================================
+	echo.
+	set /p sel="Select what kind of debloat you want: "
 	cls
-	if "!sel!" == "1" set file=%cd%\appList\basic.txt & set opt=BASIC
-	if "!sel!" == "2" set file=%cd%\appList\light.txt & set opt=LIGHT
-	if "!sel!" == "3" set file=%cd%\appList\heavy.txt & set opt=HEAVY
-	if "!sel!" == "q" goto exit
-	if "!sel!" == "Q" goto exit
+	if "!sel!" == "1" set file=%cd%\appList\basic.txt & set opt=BASIC & goto continue
+	if "!sel!" == "2" set file=%cd%\appList\light.txt & set opt=LIGHT & goto continue
+	if "!sel!" == "3" set file=%cd%\appList\heavy.txt & set opt=HEAVY & goto continue
+	goto exit
+	
+	
+	:continue
 	echo =======================================================
 	echo Universal Samsung Debloater by invinciblevenom
 	echo Improved Script by KDRN
@@ -33,12 +43,6 @@ if %errorlevel% == 0 (
 		echo Uninstalling %%A
 		adb shell pm uninstall --user 0 %%A
 	)
-) else (
-	cls
-	echo error: adb not found.... 
-	set /p lmao=press any key to exit...
-	exit
-)
 
 :: for HEAVY debloat
 if "!sel!" == "3" (
@@ -49,7 +53,7 @@ if "!sel!" == "3" (
 )
 
 adb kill-server
-::cls
+cls
 echo =======================================================
 echo Universal Samsung Debloater by invinciblevenom
 echo Improved Script by KDRN
